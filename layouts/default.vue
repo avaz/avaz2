@@ -13,7 +13,6 @@ const { cover } = useAppConfig();
     Machine Learning, Big Data, Java, Python, Javascript, Vue, NodeJS"
       property="description"
     />
-
     <Meta content="/favicon" property="/favicon" />
     <Meta content="Anderson Vaz" property="og:title" />
     <Meta content="summary_large_image" name="twitter:card" />
@@ -26,8 +25,4 @@ const { cover } = useAppConfig();
   </main>
 </template>
 
-<style lang="postcss" scoped>
-body {
-  @apply bg-gray-100 text-black dark:bg-gray-900 dark:text-white;
-}
-</style>
+<style lang="postcss" scoped></style>

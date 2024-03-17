@@ -10,6 +10,7 @@ class ExperienceStatistics {
   yearsOfExperience: number = 0;
   projectsCompleted: number = 0;
   maxTeamSize: number = 0;
+  locWritten: number = 0;
   programmingLanguages: Skill[] = [];
   skills: Skill[] = [];
 }

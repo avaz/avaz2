@@ -15,6 +15,7 @@ export default () => {
       yearsOfExperience: 0,
       projectsCompleted: 0,
       maxTeamSize: 0,
+      locWritten: 0,
       programmingLanguages: [],
       skills: [],
     });
@@ -24,6 +25,8 @@ export default () => {
     );
     if (partial) {
       statistics.value = partial;
+      // FIXME: This is a temporary fix for the missing locWritten value
+      statistics.value.locWritten = 30;
     }
     const skills = await database.query(
       Skill,

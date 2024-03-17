@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="flex max-w-md flex-col items-center rounded-xl bg-gray-200 dark:bg-gray-800 dark:text-gray-200 p-8"
+    class="flex max-w-md flex-col items-center rounded-xl bg-gray-200 dark:bg-gray-800 p-8"
   >
     <slot name="header"></slot>
     <slot name="title"></slot>
