@@ -60,10 +60,10 @@ const statisticsMap = computed(() => {
 <template>
   <article class="mx-auto bg-white dark:bg-gray-900 w-full">
     <Title>{{ contact?.name }} - Software Engineer</Title>
-    <section class="flex justify-center max-w-6xl mx-auto md:mb-4">
+    <section class="flex justify-center max-w-6xl m-6">
       <div class="flex">
         <div class="flex flex-col items-center justify-center">
-          <div class="mt-4 flex items-center gap-4">
+          <div class="flex items-center gap-4">
             <nuxt-img
               class="block rounded-full w-28 h-28 md:hidden"
               alt="avatar"
@@ -72,20 +72,21 @@ const statisticsMap = computed(() => {
             <div>
               <TextGradient
                 :title="contact?.name"
-                class="text-5xl text-center"
+                class="text-4xl md:text-5xl text-center"
               />
-              <p class="mt-2 text-center font-bold dark:text-white text-2xl">
+              <p class="my-2 text-center font-bold dark:text-white text-2xl">
                 Software Engineer
               </p>
             </div>
           </div>
-          <p class="m-4 text-center text-2xl dark:text-gray-400">
+          <p
+            class="m-4 break-after-column hyphens-auto leading-snug text-justify md:text-center text-2xl dark:text-gray-400"
+          >
             I specialize in meticulously translating business operations to
             machines using the most appropriate tools and techniques.
             <br />
             And I can do it in the other way around too.
           </p>
-          <p class="mx-4 dark:text-gray-400 text-2xl"></p>
         </div>
         <div class="hidden md:block">
           <nuxt-img alt="avatar" src="/assets/images/avatar.png" />

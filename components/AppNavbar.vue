@@ -4,24 +4,24 @@ const appConfig = useAppConfig();
 
 <template>
   <header class="py-4 sm:px-8 text-white bg-blue-600 dark:bg-gray-800">
-    <div class="flex justify-around mx-auto max-w-full flex-col md:flex-row">
-      <nav class="self-center md:self-start dark:text-gray-200 md:block">
-        <NuxtLink :to="`/`" active-class="font-bold" class="mr-6 p-3">
+    <div class="flex items-center flex-col md:flex-row md:justify-around">
+      <nav class="md:self-start dark:text-gray-200 md:block">
+        <NuxtLink :to="`/`" active-class="font-bold" class="p-3">
           Summary
         </NuxtLink>
         <NuxtLink
           :to="`/blog`"
           active-class="font-bold"
-          class="mr-6 p-3"
+          class="p-3"
           :class="{ 'font-bold': $route.path.startsWith('/blog') }"
         >
           Thoughts
         </NuxtLink>
-        <NuxtLink :to="`/curriculum`" active-class="font-bold" class="mr-6 p-3">
+        <NuxtLink :to="`/curriculum`" active-class="font-bold" class="p-3">
           Curriculum
         </NuxtLink>
       </nav>
-      <div class="self-center md:self-end md:space-x-3 md:transition">
+      <div class="md:self-end md:space-x-3 md:transition">
         <NuxtLink
           v-if="appConfig.socials?.twitter"
           :href="`https://twitter.com/${appConfig.socials?.twitter}`"

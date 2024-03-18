@@ -18,7 +18,7 @@ export default () => {
       )) || new ExperienceStatistics(),
     );
     // FIXME: This is a temporary fix for the missing locWritten value
-    statistics.value.locWritten = 33242;
+    statistics.value.locWritten = 29114;
     const skills = await database.query(
       Skill,
       queries.EXPERTISE_QUERY.statement,
