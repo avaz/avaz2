@@ -16,6 +16,7 @@ class ExperienceStatistics {
 }
 
 class Skill {
+  uid: string = "";
   name: string = "";
   totalHours: number = 0;
   type: string = "";

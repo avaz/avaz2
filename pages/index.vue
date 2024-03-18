@@ -2,33 +2,55 @@
 import { useCv } from "#imports";
 import SkillsMap from "~/components/SkillsMap.vue";
 import TextGradient from "~/components/TextGradient.vue";
-import Stack from "~/components/Stack.vue";
+import LayoutStack from "~/components/LayoutStack.vue";
+import { TransitionPresets, useTransition } from "@vueuse/core";
 import type { ComputedRef } from "vue";
+
 const cv = useCv();
 const contact = await cv.getContact();
+
+const yearsOfExperience = ref(0);
+const projectsCompleted = ref(0);
+const maxTeamSize = ref(0);
+const locWritten = ref(0);
+
+const counters: ComputedRef<Array<number>> = useTransition(
+  [yearsOfExperience, projectsCompleted, maxTeamSize, locWritten],
+  {
+    duration: 1000,
+    transition: TransitionPresets.easeInSine,
+  },
+);
+
 const statistics = await cv.getStatistics();
-const statisticsMap: ComputedRef<
-  { label: string; value: number; icon: string }[]
-> = computed(() => {
+onMounted(() => {
+  yearsOfExperience.value = statistics?.value.yearsOfExperience;
+  projectsCompleted.value = statistics?.value.projectsCompleted;
+  maxTeamSize.value = statistics?.value.maxTeamSize;
+  locWritten.value = statistics?.value.locWritten;
+});
+
+const formatter = Intl.NumberFormat("en", { notation: "compact" });
+const statisticsMap = computed(() => {
   return [
     {
       label: "years of experience",
-      value: statistics?.value.yearsOfExperience,
+      value: counters.value[0].toFixed(0),
       icon: "heroicons:clock",
     },
     {
       label: "production projects",
-      value: statistics?.value.projectsCompleted,
+      value: counters.value[1].toFixed(0),
       icon: "heroicons:check",
     },
     {
       label: "people managed",
-      value: statistics?.value.maxTeamSize,
+      value: counters.value[2].toFixed(0),
       icon: "heroicons:user-group",
     },
     {
       label: "LoC written",
-      value: statistics?.value.locWritten,
+      value: formatter.format(counters.value[3]).toLocaleLowerCase(),
       icon: "heroicons:code-bracket",
     },
   ];
@@ -36,9 +58,9 @@ const statisticsMap: ComputedRef<
 </script>
 
 <template>
-  <article class="grid gap-6 mx-auto bg-white dark:bg-gray-900 w-full">
-    <Title>Anderson Vaz - Software Engineer</Title>
-    <section class="flex justify-center max-w-6xl mx-auto">
+  <article class="mx-auto bg-white dark:bg-gray-900 w-full">
+    <Title>{{ contact?.name }} - Software Engineer</Title>
+    <section class="flex justify-center max-w-6xl mx-auto md:mb-4">
       <div class="flex">
         <div class="flex flex-col items-center justify-center">
           <div class="mt-4 flex items-center gap-4">
@@ -52,54 +74,52 @@ const statisticsMap: ComputedRef<
                 :title="contact?.name"
                 class="text-5xl text-center"
               />
-              <p class="mt-2 text-center font-bold dark:text-white">
+              <p class="mt-2 text-center font-bold dark:text-white text-2xl">
                 Software Engineer
               </p>
             </div>
           </div>
-          <p class="mt-4 text-center text-2xl dark:text-gray-400">
+          <p class="m-4 text-center text-2xl dark:text-gray-400">
             I specialize in meticulously translating business operations to
             machines using the most appropriate tools and techniques.
-          </p>
-          <p class="dark:text-gray-400 text-2xl">
+            <br />
             And I can do it in the other way around too.
           </p>
+          <p class="mx-4 dark:text-gray-400 text-2xl"></p>
         </div>
         <div class="hidden md:block">
           <nuxt-img alt="avatar" src="/assets/images/avatar.png" />
         </div>
       </div>
     </section>
+    <LayoutStack>
+      <CountCard v-for="(s, index) in statisticsMap" :key="s.label">
+        <template #header>
+          <Icon :name="s.icon" class="mb-2 h-12 w-12" />
+        </template>
+        <template #title>
+          <span class="text-6xl font-bold">
+            {{ s.value }}
+          </span>
+        </template>
+        <template #description>
+          <div class="text-center text-2xl">
+            <span>{{ s.label }}</span>
+            <sup>
+              <a :href="'#ref' + index + 1" class="text-sm">{{ index + 1 }}</a>
+            </sup>
+          </div>
+        </template>
+      </CountCard>
+    </LayoutStack>
     <section class="mb-4">
-      <Stack>
-        <CountCard v-for="(s, index) in statisticsMap" :key="s.label">
-          <template #header>
-            <Icon :name="s.icon" class="mb-2 h-12 w-12" />
-          </template>
-          <template #title>
-            <span class="text-6xl font-bold">
-              {{ s.value }}
-            </span>
-          </template>
-          <template #description>
-            <div class="text-center text-2xl">
-              <span>{{ s.label }}</span>
-              <sup>
-                <a :href="'#ref' + index + 1" class="text-sm">{{
-                  index + 1
-                }}</a>
-              </sup>
-            </div>
-          </template>
-        </CountCard>
-      </Stack>
       <h1 class="m-4 text-center text-2xl dark:text-white">
         All that done with at least one of these programming languages
       </h1>
-      <Stack>
+      <LayoutStack>
         <CountCard
           v-for="lang in statistics?.programmingLanguages"
-          :key="lang.name"
+          :key="lang.uid"
           :icon-name="`bx:bxl-${lang.name.toLowerCase()}`"
         >
           <template #header>
@@ -118,9 +138,8 @@ const statisticsMap: ComputedRef<
             <span class="text-2xl">{{ lang.name }}</span>
           </template>
         </CountCard>
-      </Stack>
+      </LayoutStack>
     </section>
-
     <section class="hidden sm:p-4 lg:block">
       <h1 class="m-4 text-center text-2xl dark:text-white">
         Using at least one of these technologies

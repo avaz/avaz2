@@ -16,6 +16,11 @@ const { cover } = useAppConfig();
     <Meta content="/favicon" property="/favicon" />
     <Meta content="Anderson Vaz" property="og:title" />
     <Meta content="summary_large_image" name="twitter:card" />
+    <Meta
+      content="Anderson Vaz, Software Engineer. Website about software engineering,
+      artificial intelligence, machine learning, data engineering."
+      name="description"
+    />
     <NuxtLoadingIndicator />
     <AppNavbar />
     <div class="flex flex-grow">

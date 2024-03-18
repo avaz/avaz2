@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "nuxt-icon",
     "@nuxt/image",
+    "@vueuse/nuxt",
   ],
   colorMode: {
     classSuffix: "",

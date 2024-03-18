@@ -7,7 +7,11 @@ const onClick = () =>
 </script>
 
 <template>
-  <button aria-label="Color Mode" class="inline-block w-5" @click="onClick">
+  <button
+    aria-label="Color Mode"
+    class="inline-block w-5 p-5 md:p-0"
+    @click="onClick"
+  >
     <ColorScheme placeholder="...">
       <template v-if="colorMode.value === 'dark'">
         <Icon name="dark-mode" class="h-5 w-5" />
