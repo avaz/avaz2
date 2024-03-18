@@ -65,6 +65,7 @@ const statisticsMap = computed(() => {
         <div class="flex flex-col items-center justify-center">
           <div class="flex items-center gap-4">
             <nuxt-img
+              format="avif,webp"
               class="block rounded-full w-28 h-28 md:hidden"
               alt="avatar"
               src="/assets/images/avatar.png"
@@ -89,7 +90,11 @@ const statisticsMap = computed(() => {
           </p>
         </div>
         <div class="hidden md:block">
-          <nuxt-img alt="avatar" src="/assets/images/avatar.png" />
+          <nuxt-img
+            format="avif,webp"
+            alt="avatar"
+            src="/assets/images/avatar.png"
+          />
         </div>
       </div>
     </section>

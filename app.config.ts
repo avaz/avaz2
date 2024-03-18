@@ -4,7 +4,7 @@ export default defineAppConfig({
     github: "avaz",
     linkedin: "andersonvaz",
   },
-  cover: "/assets/images/avatar-head-bg-transparent.png",
+  cover: "/assets/images/avatar-head-bg-transparent.webp",
   nuxtIcon: {
     aliases: {
       "dark-mode": "ph:moon-bold",
