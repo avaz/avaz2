@@ -9,7 +9,7 @@ const onClick = () =>
 <template>
   <button
     aria-label="Color Mode"
-    class="inline-block w-5 p-5 md:p-0"
+    class="inline-block p-5 md:p-0"
     @click="onClick"
   >
     <ColorScheme placeholder="...">

@@ -117,7 +117,7 @@ const statisticsMap = computed(() => {
         </template>
       </CountCard>
     </LayoutStack>
-    <section class="my-14">
+    <section class="my-[6rem]">
       <h1 class="m-4 text-center text-2xl dark:text-white">
         All that done with at least one of these programming languages
       </h1>
@@ -145,7 +145,7 @@ const statisticsMap = computed(() => {
         </CountCard>
       </LayoutStack>
     </section>
-    <section class="my-14">
+    <section class="my-[6rem]">
       <h1 class="m-4 text-center text-2xl dark:text-white">
         Building up these skills (in hours of practice)
       </h1>
