@@ -248,6 +248,22 @@ based architectures.",
               "uid": "shapeup",
               "version": "N/A"
             },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "pytest",
+              "version": "N/A"
+            },
+            {
+              "uid": "locust",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            },
           ],
           "lines_of_code": 1000
         },
@@ -327,6 +343,14 @@ based architectures.",
             },
             {
               "uid": "shapeup",
+              "version": "N/A"
+            },
+            {
+              "uid": "dvc",
+              "version": "N/A"
+            },
+            {
+              "uid": "tpi",
               "version": "N/A"
             }
           ]
@@ -444,6 +468,10 @@ learned along the way while working on this project.",
             },
             {
               "uid": "shapeup",
+              "version": "N/A"
+            },
+            {
+              "uid": "idea",
               "version": "N/A"
             },
           ],
@@ -608,6 +636,26 @@ and handle this information.",
               "uid": "shapeup",
               "version": "N/A"
             },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            },
+            {
+              "uid": "integration_testing",
+              "version": "N/A"
+            },
+            {
+              "uid": "testcontainers",
+              "version": "N/A"
+            }
           ],
         },
         {
@@ -769,6 +817,26 @@ helped to shape the engineering standards and practices in the company.",
               "uid": "shapeup",
               "version": "N/A"
             },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            },
+            {
+              "uid": "integration_testing",
+              "version": "N/A"
+            },
+            {
+              "uid": "testcontainers",
+              "version": "N/A"
+            }
           ]
         },
         {
@@ -926,6 +994,26 @@ standalone project and became the company main data architecture.",
               "uid": "shapeup",
               "version": "N/A"
             },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            },
+            {
+              "uid": "integration_testing",
+              "version": "N/A"
+            },
+            {
+              "uid": "testcontainers",
+              "version": "N/A"
+            }
           ]
         }
       ]
@@ -1075,6 +1163,18 @@ information.",
             {
               "uid": "sql",
               "version": "N/A"
+            },
+            {
+              "uid": "pycharm",
+              "version": "N/A"
+            },
+            {
+              "uid": "pytest",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
             }
           ]
         },
@@ -1170,6 +1270,18 @@ the framework.",
               "uid": "scrum",
               "version": "N/A"
             },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            }
           ]
         },
         {
@@ -1271,6 +1383,18 @@ project.",
               "uid": "scrum",
               "version": "N/A"
             },
+            {
+              "uid": "pycharm",
+              "version": "N/A"
+            },
+            {
+              "uid": "pytest",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            }
           ]
         }
       ]
@@ -1410,6 +1534,14 @@ I help in deliver projects for several customers in different countries, includi
               "uid": "scrum",
               "version": "N/A"
             },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
+            }
           ]
         },
         {
@@ -1455,6 +1587,18 @@ CXP 5.x line as standard.",
             },
             {
               "uid": "scrum",
+              "version": "N/A"
+            },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -1565,6 +1709,10 @@ Oracle. I was responsible for teaching Java and Middleware technologies to the c
             },
             {
               "uid": "weblogic",
+              "version": "N/A"
+            },
+            {
+              "uid": "netbeans",
               "version": "N/A"
             },
           ]
@@ -1713,6 +1861,18 @@ was reduced to *2 minutes*.",
             },
             {
               "uid": "sql",
+              "version": "N/A"
+            },
+            {
+              "uid": "idea",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -1970,6 +2130,18 @@ better deliveries, and we regained the customer satisfaction.",
             {
               "uid": "sql",
               "version": "N/A"
+            },
+            {
+              "uid": "netbeans",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
             }
           ]
         }
@@ -2120,6 +2292,18 @@ and a lot of other components. Very interesting project.",
             {
               "uid": "sql",
               "version": "N/A"
+            },
+            {
+              "uid": "netbeans",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
             }
           ]
         },
@@ -2209,6 +2393,18 @@ and a lot of other components. Very interesting project.",
             {
               "uid": "sql",
               "version": "N/A"
+            },
+            {
+              "uid": "netbeans",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
+              "version": "N/A"
             }
           ]
         },
@@ -2293,6 +2489,18 @@ and a lot of other components. Very interesting project.",
             },
             {
               "uid": "sql",
+              "version": "N/A"
+            },
+            {
+              "uid": "netbeans",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -2380,6 +2588,18 @@ a a file stayed in the same stage for a configured threshold.",
             },
             {
               "uid": "sql",
+              "version": "N/A"
+            },
+            {
+              "uid": "netbeans",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -2504,7 +2724,11 @@ in the Claro customer portal.",
             {
               "name": "css",
               "version": "1.0"
-            }
+            },
+            {
+              "uid": "eclipse",
+              "version": "N/A"
+            },
           ]
         },
         {
@@ -2608,6 +2832,18 @@ to maintain it and offer support.",
             },
             {
               "uid": "sql",
+              "version": "N/A"
+            },
+            {
+              "uid": "eclipse",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -2714,7 +2950,11 @@ subsidiaries without providing all infrastructure SAP/R3 GUI to them.",
             {
               "uid": "sql",
               "version": "N/A"
-            }
+            },
+            {
+              "uid": "eclipse",
+              "version": "N/A"
+            },
           ]
         },
         {
@@ -2792,6 +3032,18 @@ payroll, payslip access.",
             },
             {
               "uid": "sql",
+              "version": "N/A"
+            },
+            {
+              "uid": "eclipse",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -2892,6 +3144,18 @@ payroll, payslip access.",
             },
             {
               "uid": "sql",
+              "version": "N/A"
+            },
+            {
+              "uid": "eclipse",
+              "version": "N/A"
+            },
+            {
+              "uid": "junit",
+              "version": "N/A"
+            },
+            {
+              "uid": "unit_testing",
               "version": "N/A"
             }
           ]
@@ -3008,6 +3272,10 @@ reports, user authentication and authorization.",
             {
               "uid": "cvs",
               "version": "N/A"
+            },
+            {
+              "uid": "eclipse",
+              "version": "N/A"
             }
           ]
         }
@@ -3111,6 +3379,10 @@ management, fixing bugs, overall support.",
             },
             {
               "uid": "sql",
+              "version": "n/a"
+            },
+            {
+              "uid": "eclipse",
               "version": "n/a"
             }
           ]
@@ -3468,6 +3740,22 @@ that would allow copy files from S3 in streaming mode.",
             },
             {
               "uid": "maven",
+              "version": null
+            },
+            {
+              "uid": "idea",
+              "version": null
+            },
+            {
+              "uid": "unit_testing",
+              "version": null
+            },
+            {
+              "uid": "integration_testing",
+              "version": null
+            },
+            {
+              "uid": "localstack",
               "version": null
             }
           ]

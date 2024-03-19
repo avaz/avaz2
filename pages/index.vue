@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { useCv } from "#imports";
-import SkillsMap from "~/components/SkillsMap.vue";
 import TextGradient from "~/components/TextGradient.vue";
 import LayoutStack from "~/components/LayoutStack.vue";
 import { TransitionPresets, useTransition } from "@vueuse/core";
@@ -60,7 +59,7 @@ const statisticsMap = computed(() => {
 <template>
   <article class="mx-auto bg-white dark:bg-gray-900 w-full">
     <Title>{{ contact?.name }} - Software Engineer</Title>
-    <section class="flex justify-center max-w-6xl m-6">
+    <section class="flex justify-center max-w-6xl m-6 mx-auto">
       <div class="flex">
         <div class="flex flex-col items-center justify-center">
           <div class="flex items-center gap-4">
@@ -98,7 +97,7 @@ const statisticsMap = computed(() => {
         </div>
       </div>
     </section>
-    <LayoutStack>
+    <LayoutStack class="my-14">
       <CountCard v-for="(s, index) in statisticsMap" :key="s.label">
         <template #header>
           <Icon :name="s.icon" class="mb-2 h-12 w-12" />
@@ -118,7 +117,7 @@ const statisticsMap = computed(() => {
         </template>
       </CountCard>
     </LayoutStack>
-    <section class="mb-4">
+    <section class="my-14">
       <h1 class="m-4 text-center text-2xl dark:text-white">
         All that done with at least one of these programming languages
       </h1>
@@ -146,11 +145,11 @@ const statisticsMap = computed(() => {
         </CountCard>
       </LayoutStack>
     </section>
-    <section class="hidden sm:p-4 lg:block">
+    <section class="my-14">
       <h1 class="m-4 text-center text-2xl dark:text-white">
-        Using at least one of these technologies
+        Building up these skills (in hours of practice)
       </h1>
-      <SkillsMap />
+      <SkillRadar />
     </section>
   </article>
 </template>

@@ -1,16 +1,16 @@
 <script lang="ts" async setup>
-import type { Skill } from "#imports";
 import { computed } from "vue";
 import { voronoiTreemap } from "d3-voronoi-treemap";
 import type { HierarchyNode } from "d3";
 import * as d3 from "d3";
-import { useCv } from "#imports";
 import { random } from "colord";
+import type { Skill } from "#imports";
+import { useCv } from "#imports";
 const cv = useCv();
 const statistics = await cv.getStatistics();
 
 const types = computed(() =>
-  Array.from(new Set(statistics.value.skills?.map((s) => s.type))),
+  Array.from(new Set(statistics.value.skills?.map((s) => s.kind))),
 );
 const typesColors = computed(() =>
   types.value.reduce(
@@ -48,7 +48,7 @@ onMounted(() => {
   const groups = d3.group(
     // statistics.value.skills.filter((s: Skill) => s.category === "engineering"),
     statistics.value.skills,
-    (d: Skill) => d.type,
+    (d: Skill) => d.kind,
   );
   const svg = d3
     .select("#skills-map")
@@ -100,7 +100,7 @@ onMounted(() => {
       return "M" + d.polygon.join(",") + "z";
     })
     .style("fill", function (d: HierarchyNode<Skill>) {
-      return typesColors.value[d.data.type];
+      return typesColors.value[d.data.kind];
     });
 
   cells

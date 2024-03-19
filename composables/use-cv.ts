@@ -23,9 +23,7 @@ export default () => {
       Skill,
       queries.EXPERTISE_QUERY.statement,
     );
-    statistics.value.skills = skills.filter(
-      (skill: Skill) => skill.type !== "programming_language",
-    );
+    statistics.value.skills = skills;
     statistics.value.programmingLanguages = skills.filter(
       (s) => s.type === "programming_language" && s.totalHours > 2000,
     );
