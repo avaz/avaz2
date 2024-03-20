@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="grid gap-4 sm:gap-8 grid-cols-2 justify-center justify-items-center mx-auto md:flex"
+    class="grid gap-4 sm:gap-14 grid-cols-2 justify-center justify-items-center mx-auto md:flex"
   >
     <slot>
       <div class="grid gap-4 col-span-2 grid-cols-2 md:flex">

@@ -1,9 +1,4 @@
 export default defineAppConfig({
-  socials: {
-    twitter: "aavaz",
-    github: "avaz",
-    linkedin: "andersonvaz",
-  },
   cover: "/assets/images/avatar-head-bg-transparent.webp",
   nuxtIcon: {
     aliases: {

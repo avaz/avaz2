@@ -16,7 +16,7 @@ const locWritten = ref(0);
 const counters: ComputedRef<Array<number>> = useTransition(
   [yearsOfExperience, projectsCompleted, maxTeamSize, locWritten],
   {
-    duration: 1000,
+    duration: 300,
     transition: TransitionPresets.easeInSine,
   },
 );
@@ -58,7 +58,7 @@ const statisticsMap = computed(() => {
 
 <template>
   <article class="mx-auto bg-white dark:bg-gray-900 w-full">
-    <Title>{{ contact?.name }} - Software Engineer</Title>
+    <Title>{{ contact?.name }} - Software Engineer 👨🏽‍💻</Title>
     <section class="flex justify-center max-w-6xl m-6 mx-auto">
       <div class="flex">
         <div class="flex flex-col items-center justify-center">
@@ -67,7 +67,7 @@ const statisticsMap = computed(() => {
               format="avif,webp"
               class="block rounded-full w-28 h-28 md:hidden"
               alt="avatar"
-              src="/assets/images/avatar.png"
+              src="/assets/images/avatar2.png"
             />
             <div>
               <TextGradient
@@ -75,15 +75,15 @@ const statisticsMap = computed(() => {
                 class="text-4xl md:text-5xl text-center"
               />
               <p class="my-2 text-center font-bold dark:text-white text-2xl">
-                Software Engineer
+                Software Engineer 👨🏽‍💻
               </p>
             </div>
           </div>
           <p
             class="m-4 break-after-column hyphens-auto leading-snug text-justify md:text-center text-2xl dark:text-gray-400"
           >
-            I specialize in meticulously translating business operations to
-            machines using the most appropriate tools and techniques.
+            I know how to talk to computers and make them understand what
+            business needs.
             <br />
             And I can do it in the other way around too.
           </p>
@@ -92,55 +92,62 @@ const statisticsMap = computed(() => {
           <nuxt-img
             format="avif,webp"
             alt="avatar"
-            src="/assets/images/avatar.png"
+            src="/assets/images/avatar2.png"
           />
         </div>
       </div>
     </section>
-    <LayoutStack class="my-14">
-      <CountCard v-for="(s, index) in statisticsMap" :key="s.label">
-        <template #header>
-          <Icon :name="s.icon" class="mb-2 h-12 w-12" />
-        </template>
-        <template #title>
-          <span class="text-6xl font-bold">
-            {{ s.value }}
-          </span>
-        </template>
-        <template #description>
-          <div class="text-center text-2xl">
-            <span>{{ s.label }}</span>
-            <sup>
-              <a :href="'#ref' + index + 1" class="text-sm">{{ index + 1 }}</a>
-            </sup>
-          </div>
-        </template>
-      </CountCard>
-    </LayoutStack>
+    <section class="my-14">
+      <LayoutStack>
+        <CountCard v-for="(s, index) in statisticsMap" :key="s.label">
+          <template #header>
+            <Icon :name="s.icon" class="mb-2 h-12 w-12" />
+          </template>
+          <template #title>
+            <span class="text-6xl font-bold">
+              {{ s.value }}
+            </span>
+          </template>
+          <template #description>
+            <div class="text-center text-2xl">
+              <span>{{ s.label }}</span>
+              <sup>
+                <a :href="'#ref' + index + 1" class="text-sm">{{
+                  index + 1
+                }}</a>
+              </sup>
+            </div>
+          </template>
+        </CountCard>
+      </LayoutStack>
+    </section>
     <section class="my-[6rem]">
       <h1 class="m-4 text-center text-2xl dark:text-white">
         All that done with at least one of these programming languages
       </h1>
       <LayoutStack>
         <CountCard
-          v-for="lang in statistics?.programmingLanguages"
+          v-for="lang in statistics?.programmingLanguages.sort((a, b) =>
+            a.uid.localeCompare(b.uid),
+          )"
           :key="lang.uid"
           :icon-name="`bx:bxl-${lang.name.toLowerCase()}`"
+          class="bg-transparent"
         >
           <template #header>
             <Icon
               v-if="lang.name.toLocaleLowerCase() !== 'sql'"
-              :name="`bx:bxl-${lang.name.toLowerCase()}`"
-              class="mb-2 h-12 w-12"
+              :name="`devicon:${lang.name.toLowerCase()}`"
+              class="mb-2 h-[6rem] w-[6rem]"
             />
             <Icon
               v-else
               name="arcticons:sqlite-editor"
-              class="mb-2 h-12 w-12"
+              class="mb-2 h-[6rem] w-[6rem] text-blue-500 dark:text-blue-300"
             />
           </template>
           <template #title>
-            <span class="text-2xl">{{ lang.name }}</span>
+            <span class="text-sm">{{ lang.name }}</span>
           </template>
         </CountCard>
       </LayoutStack>

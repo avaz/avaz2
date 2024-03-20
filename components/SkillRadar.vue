@@ -11,7 +11,7 @@ import {
   ArcElement,
   Colors,
 } from "chart.js";
-import { Radar, PolarArea } from "vue-chartjs";
+import { PolarArea } from "vue-chartjs";
 
 ChartJS.register(
   RadialLinearScale,
@@ -112,7 +112,7 @@ const chartOptions = ref({
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row mx-auto max-w-2xl">
+  <div class="flex flex-col md:flex-row mx-auto gap-14 max-w-[972px]">
     <div class="w-full">
       <div class="text-center mb-6 text-gray-600">Engineering</div>
       <PolarArea

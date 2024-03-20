@@ -1,5 +1,7 @@
 <script lang="ts" setup>
-const appConfig = useAppConfig();
+import { useCv } from "#imports";
+
+const contact = await useCv().getContact();
 </script>
 
 <template>
@@ -21,10 +23,10 @@ const appConfig = useAppConfig();
           Curriculum
         </NuxtLink>
       </nav>
-      <div class="md:self-end md:space-x-3 md:transition">
+      <div class="md:self-end md:space-x-3.5 md:transition">
         <NuxtLink
-          v-if="appConfig.socials?.twitter"
-          :href="`https://twitter.com/${appConfig.socials?.twitter}`"
+          v-if="contact?.x"
+          :href="contact?.x"
           class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
           rel="noopener noreferrer"
           target="_blank"
@@ -33,8 +35,8 @@ const appConfig = useAppConfig();
           <Icon class="h-5 w-5" name="fa-brands:twitter" />
         </NuxtLink>
         <NuxtLink
-          v-if="appConfig.socials?.github"
-          :href="`https://github.com/${appConfig.socials?.github}`"
+          v-if="contact?.github"
+          :href="contact?.github"
           class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
           rel="noopener noreferrer"
           target="_blank"
@@ -43,8 +45,8 @@ const appConfig = useAppConfig();
           <Icon class="h-5 w-5" name="fa-brands:github" />
         </NuxtLink>
         <NuxtLink
-          v-if="appConfig.socials?.linkedin"
-          :href="`https://www.linkedin.com/in/${appConfig.socials?.linkedin}`"
+          v-if="contact?.linkedin"
+          :href="contact?.linkedin"
           class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
           rel="noopener noreferrer"
           target="_blank"
