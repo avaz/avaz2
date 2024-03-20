@@ -22,6 +22,11 @@ export default defineNuxtConfig({
   eslint: {
     lintOnStart: false,
   },
+  tailwindcss: {
+    exposeConfig: {
+      level: 4,
+    },
+  },
   content: {
     sources: {
       blog: {

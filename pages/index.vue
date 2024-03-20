@@ -57,30 +57,30 @@ const statisticsMap = computed(() => {
 </script>
 
 <template>
-  <article class="mx-auto bg-white dark:bg-gray-900 w-full">
+  <article class="mx-auto w-full bg-white dark:bg-gray-900">
     <Title>{{ contact?.name }} - Software Engineer 👨🏽‍💻</Title>
-    <section class="flex justify-center max-w-6xl m-6 mx-auto">
+    <section class="m-6 mx-auto flex max-w-6xl justify-center">
       <div class="flex">
         <div class="flex flex-col items-center justify-center">
           <div class="flex items-center gap-4">
             <nuxt-img
               format="avif,webp"
-              class="block rounded-full w-28 h-28 md:hidden"
+              class="block h-28 w-28 rounded-full md:hidden"
               alt="avatar"
               src="/assets/images/avatar2.png"
             />
             <div>
               <TextGradient
                 :title="contact?.name"
-                class="text-4xl md:text-5xl text-center"
+                class="text-center text-4xl md:text-5xl"
               />
-              <p class="my-2 text-center font-bold dark:text-white text-2xl">
+              <p class="my-2 text-center text-2xl font-bold dark:text-white">
                 Software Engineer 👨🏽‍💻
               </p>
             </div>
           </div>
           <p
-            class="m-4 break-after-column hyphens-auto leading-snug text-justify md:text-center text-2xl dark:text-gray-400"
+            class="m-4 break-after-column hyphens-auto text-justify text-2xl leading-snug dark:text-gray-400 md:text-center"
           >
             I know how to talk to computers and make them understand what
             business needs.

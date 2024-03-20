@@ -1,18 +1,87 @@
+const colors = require("tailwindcss/colors");
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      zinc: colors.zinc,
+      neutral: colors.neutral,
+      red: colors.red,
+      violet: colors.violet,
+      blue: {
+        "50": "#e4f8ff",
+        "100": "#cff0ff",
+        "200": "#a8e1ff",
+        "300": "#74cbff",
+        "400": "#3ea1ff",
+        "500": "#1376ff",
+        "600": "#0064ff",
+        "700": "#0064ff",
+        "800": "#005ae4",
+        "900": "#003fb0",
+        "950": "#002776",
+      },
+      green: {
+        "50": "#edfff3",
+        "100": "#d6ffe5",
+        "200": "#afffcc",
+        "300": "#71ffa7",
+        "400": "#2dfb79",
+        "500": "#02e557",
+        "600": "#00bf44",
+        "700": "#009c3b",
+        "800": "#067530",
+        "900": "#085f2a",
+        "950": "#003615",
+      },
+      yellow: {
+        "50": "#feffe7",
+        "100": "#fcffc1",
+        "200": "#fdff86",
+        "300": "#fffa41",
+        "400": "#ffee0d",
+        "500": "#ffdf00",
+        "600": "#d1a500",
+        "700": "#a67602",
+        "800": "#895c0a",
+        "900": "#744b0f",
+        "950": "#442804",
+      },
+      data: "#06d6a0",
+      backend: "#3D5A80",
+      frontend: "#98C1D9",
+      operations: "#EE6C4D",
+      quality_assurance: "#403d39",
+      tool: "#f4d35e",
+      general: "#006d77",
+      business: "#83c5be",
+      management: "#edf6f9",
+      product: "#ffddd2",
+      innovation: "#faf0ca",
+      problem_solving: "#f4d35e",
+      decision_making: "#ee964b",
+      marketing: "#f95738",
+      leadership: "#0fa3b1",
+      // security: "#FF0000",
+      // sales: "#FF4500",
+      // strategy: "#FF6347",
+      // finance: "#FFD700",
+      // teamwork: "#FF69B4",
+    },
     extend: {
-      backgroundColor: ['transparent']
-    }
+      backgroundColor: ["transparent"],
+    },
   },
   variants: {
     extend: {
-      backgroundClip: ['responsive']
-    }
+      backgroundClip: ["responsive"],
+    },
   },
 
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
-
-}
+  plugins: [require("@tailwindcss/typography")],
+};

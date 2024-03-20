@@ -5,9 +5,9 @@ const contact = await useCv().getContact();
 </script>
 
 <template>
-  <header class="py-4 sm:px-8 text-white bg-blue-600 dark:bg-gray-800">
-    <div class="flex items-center flex-col md:flex-row md:justify-around">
-      <nav class="md:self-start dark:text-gray-200 md:block">
+  <header class="bg-blue-600 py-4 text-white dark:bg-gray-800 sm:px-8">
+    <div class="flex flex-col items-center md:flex-row md:justify-around">
+      <nav class="dark:text-gray-200 md:block md:self-start">
         <NuxtLink :to="`/`" active-class="font-bold" class="p-3">
           Summary
         </NuxtLink>
@@ -23,11 +23,11 @@ const contact = await useCv().getContact();
           Curriculum
         </NuxtLink>
       </nav>
-      <div class="md:self-end md:space-x-3.5 md:transition">
+      <div class="md:space-x-3.5 md:self-end md:transition">
         <NuxtLink
           v-if="contact?.x"
           :href="contact?.x"
-          class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
+          class="p-5 hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 md:p-0"
           rel="noopener noreferrer"
           target="_blank"
           title="Twitter"
@@ -37,7 +37,7 @@ const contact = await useCv().getContact();
         <NuxtLink
           v-if="contact?.github"
           :href="contact?.github"
-          class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
+          class="p-5 hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 md:p-0"
           rel="noopener noreferrer"
           target="_blank"
           title="GitHub"
@@ -47,7 +47,7 @@ const contact = await useCv().getContact();
         <NuxtLink
           v-if="contact?.linkedin"
           :href="contact?.linkedin"
-          class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
+          class="p-5 hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 md:p-0"
           rel="noopener noreferrer"
           target="_blank"
           title="LinkedIn"
@@ -55,7 +55,7 @@ const contact = await useCv().getContact();
           <Icon class="h-5 w-5" name="fa-brands:linkedin" />
         </NuxtLink>
         <ColorModeSwitch
-          class="hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 p-5 md:p-0"
+          class="p-5 hover:text-gray-700 dark:text-gray-100 dark:hover:text-gray-300 md:p-0"
         />
       </div>
     </div>
