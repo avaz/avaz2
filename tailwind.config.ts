@@ -13,6 +13,9 @@ module.exports = {
       neutral: colors.neutral,
       red: colors.red,
       violet: colors.violet,
+      rose: colors.rose,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
       blue: {
         "50": "#e4f8ff",
         "100": "#cff0ff",
@@ -75,6 +78,12 @@ module.exports = {
     },
     extend: {
       backgroundColor: ["transparent"],
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.35)",
+          "0 0px 65px rgba(255, 255,255, 0.2)",
+        ],
+      },
     },
   },
   variants: {

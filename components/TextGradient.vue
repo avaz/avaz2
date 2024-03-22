@@ -11,7 +11,7 @@ const props = defineProps({
 <template>
   <p class="text-2xl font-semibold">
     <span
-      class="bg-gradient-to-r from-blue-500 via-green-500 to-yellow-400 bg-clip-text text-transparent"
+      class="bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500 bg-clip-text text-transparent"
       >{{ props.title }}</span
     >
   </p>

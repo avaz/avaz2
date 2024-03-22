@@ -4,7 +4,7 @@ const { cover } = useAppConfig();
 
 <template>
   <main
-    class="flex flex-col justify-center flex-grow min-h-screen bg-gray-100 dark:bg-gray-900"
+    class="flex min-h-screen flex-grow flex-col justify-center bg-gray-100 dark:bg-gray-900"
   >
     <Html lang="en" />
     <Meta :content="cover" property="og:image" />
@@ -17,8 +17,8 @@ const { cover } = useAppConfig();
     <Meta content="Anderson Vaz" property="og:title" />
     <Meta content="summary_large_image" name="twitter:card" />
     <Meta
-      content="Anderson Vaz, Software Engineer. Website about software engineering,
-      artificial intelligence, machine learning, data engineering."
+      content="Anderson Vaz, Software Engineer. artificial intelligence,
+      machine learning, data engineering, mlops, machine learning operations."
       name="description"
     />
     <NuxtLoadingIndicator />

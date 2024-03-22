@@ -73,6 +73,7 @@ const chartOptions = ref<ChartOptions<any>>({
   scales: {
     r: {
       grid: {
+        display: false,
         color: colors.zinc["300"],
       },
       ticks: {
@@ -85,6 +86,7 @@ const chartOptions = ref<ChartOptions<any>>({
   },
   plugins: {
     legend: {
+      display: false,
       align: "start",
       position: "bottom",
       labels: {

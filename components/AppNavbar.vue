@@ -5,7 +5,9 @@ const contact = await useCv().getContact();
 </script>
 
 <template>
-  <header class="bg-blue-600 py-4 text-white dark:bg-gray-800 sm:px-8">
+  <header
+    class="bg-blue-600 py-4 text-white drop-shadow-md dark:bg-gray-800 sm:px-8"
+  >
     <div class="flex flex-col items-center md:flex-row md:justify-around">
       <nav class="dark:text-gray-200 md:block md:self-start">
         <NuxtLink :to="`/`" active-class="font-bold" class="p-3">

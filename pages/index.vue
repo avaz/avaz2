@@ -57,27 +57,29 @@ const statisticsMap = computed(() => {
 </script>
 
 <template>
-  <article class="mx-auto w-full bg-white dark:bg-gray-900">
+  <article class="mx-auto w-full">
     <Title>{{ contact?.name }} - Software Engineer 👨🏽‍💻</Title>
-    <section class="m-6 mx-auto flex max-w-6xl justify-center">
-      <div class="flex">
+    <section
+      class="flex justify-center bg-gradient-to-b from-blue-500/20 from-10% via-green-500/10 via-30% to-gray-100 dark:bg-gradient-to-b dark:from-zinc-700/20 dark:from-10% dark:via-green-900/20 dark:via-30% dark:to-gray-900"
+    >
+      <div class="my-6 flex">
         <div class="flex flex-col items-center justify-center">
           <div class="flex items-center gap-4">
+            <div>
+              <TextGradient
+                :title="contact?.name"
+                class="drop-shadow-glow text-center md:text-5xl"
+              />
+              <p class="my-2 text-center text-2xl font-bold dark:text-white">
+                Software Engineer 👨🏽‍💻
+              </p>
+            </div>
             <nuxt-img
               format="avif,webp"
               class="block h-[134px] w-28 rounded-full md:hidden"
               alt="avatar"
               src="/assets/images/avatar2.png"
             />
-            <div>
-              <TextGradient
-                :title="contact?.name"
-                class="text-center text-4xl md:text-5xl"
-              />
-              <p class="my-2 text-center text-2xl font-bold dark:text-white">
-                Software Engineer 👨🏽‍💻
-              </p>
-            </div>
           </div>
           <p
             class="m-4 break-after-column hyphens-auto text-justify text-2xl leading-snug dark:text-gray-400 md:text-center"
@@ -99,12 +101,16 @@ const statisticsMap = computed(() => {
     </section>
     <section class="my-14">
       <LayoutStack>
-        <CountCard v-for="(s, index) in statisticsMap" :key="s.label">
+        <CountCard
+          v-for="(s, index) in statisticsMap"
+          :key="s.label"
+          class="border-1 my-4 bg-gradient-to-r from-zinc-500 to-neutral-500 text-white drop-shadow-lg dark:border-gray-800 dark:bg-gray-800"
+        >
           <template #header>
             <Icon :name="s.icon" class="mb-2 h-12 w-12" />
           </template>
           <template #title>
-            <span class="text-6xl font-bold">
+            <span class="drop-shadow-glow text-6xl font-bold">
               {{ s.value }}
             </span>
           </template>
@@ -152,9 +158,11 @@ const statisticsMap = computed(() => {
         </CountCard>
       </LayoutStack>
     </section>
-    <section class="my-[6rem]">
+    <section
+      class="my-[6rem] bg-gradient-to-b from-gray-100 from-10% via-green-500/20 via-50% to-gray-100 dark:bg-gradient-to-b dark:from-gray-900/20 dark:from-10% dark:via-green-900/20 dark:via-60% dark:to-gray-900"
+    >
       <h1 class="m-4 text-center text-2xl dark:text-white">
-        Building up these skills (in hours of practice)
+        ...building up these expertise
       </h1>
       <SkillRadar />
     </section>
