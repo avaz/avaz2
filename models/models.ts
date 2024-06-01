@@ -24,4 +24,11 @@ class Skill {
   category: string = "";
 }
 
-export { Contact, Skill, ExperienceStatistics };
+class Expertise {
+  uid: string = "";
+  name: string = "";
+  type: string = "";
+  kind: string = "";
+}
+
+export { Contact, Skill, ExperienceStatistics, Expertise };

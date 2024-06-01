@@ -34,7 +34,10 @@ export default () => {
       const json = result?.toArray().map((row) => row.toJSON());
       if (json) {
         t = json.map((row: any) => {
-          const instance = new type();
+          let instance = new type();
+          if (typeof type === "string") {
+            instance = row["name"];
+          }
           for (const key in instance) {
             if (Object.prototype.hasOwnProperty.call(row, key)) {
               instance[key] = row[key];

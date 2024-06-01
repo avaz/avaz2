@@ -34,6 +34,7 @@
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.1",
     "@types/d3": "^7.4.3",
+    "@vueuse/motion": "^2.1.0",
     "apache-arrow": "^15.0.0",
     "chart.js": "^4.4.2",
     "d3": "^7.8.5",

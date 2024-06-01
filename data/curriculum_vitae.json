@@ -1,0 +1,3510 @@
+{
+ "name": "Anderson Vaz",
+ "given_name": "Anderson",
+ "family_name": "Duarte Vaz",
+ "avatar": "/assets/avatar-head-bg-blue-gradient.png",
+ "contact": {
+  "email": "dev@andersonvaz.com",
+  "linkedin": "https://www.linkedin.com/in/andersonvaz/",
+  "github": "https://github.com/avaz",
+  "x": "https://twitter.com/aavaz"
+ },
+ "interests": "I'm continuously interested in distributed systems and software automation.  Also, I've strong interest in data engineering and analytics with focus in batch and  streaming processing and in machine learning and model customization.",
+ "summary": {
+  "behavioral": "👨🏽‍💻Very hands-on professional, capable of designing and implementing software solutions applying the most variety of standards, architectures, SAAS and technologies mainly with Java, Python and Javascript focusing in distributed systems and data engineering for machine learning and model operations and customization. 👨🏻‍🏫 Lead and mentor a team of software engineers, fostering a collaborative and innovative work environment. Provide technical guidance and expertise to the team, keeping up to date with the latest industry trends and best practices. 👀 Oversee the design, development, and maintenance of software solutions, with a strong focus on Java, Python, Javascript and Machine Learning. 📈 Manage software development projects from concept to deployment, ensuring timely delivery and quality. Effectively manage resources, and timelines to meet project objectives. 👩🏻‍🤝‍👩🏼🧑‍🤝‍🧑👩🏽‍🤝‍👨🏾Can easily get along together with cross-functional teams of a diverse set of skills like software and machine learning engineers, data scientists, product managers, executive stakeholders, to align efforts with company goals. 🗣️ Strong communication skills in written and verbal form being able to deal with internal and external stakeholders to provide updates, gather requirements, and address any technical concerns. 🧠 Entrepreneurship mindset, proven track of making business thrive through software with solid problem solving skills. 🚅 Defining and driving the organization's technology strategy and roadmap. 🧑🏽‍🎓 Hold a Major in Computer Science, a Master’s in Business Administration, and a comprehensive set of industry technology certifications and specializations. 🫶🏽 Lover and in favor of old but not even a bit afraid in try the new. Technologies and paradigms are enjoyable things to deal with. 📚 Values good practices, design patterns, and clean code. Solid knowledge in a wide set of programming languages, frameworks, tools, and technologies in general. ♻️ Contributor and stronger supporter of open source software. 👾 Skilled video-game player, CoD mobile is the one most played at the moment. 🫐 Açaí addicted, best fruit in the world. ",
+  "long": "I'm a software engineer in the general sense of the word. Focusing in  touch and learn as much as possible about all aspects of computer science and software  engineering. Including things like code quality, testing, infrastructure, operations,  security, performance, monitoring, data processing, release automation, and so on.  I just believe a software engineer is not complete if they doesn't at least a general  knowledge of all these disciplines. I have had the chance to work  in many industries like retail, banking, telecom, and translation & localization.  These experiences exposed me to a broad range of challenges, programming languages,  technologies, work environments, cultures, and work environments.  Some of the things that I've been involved with are:  - Building and leading teams to deliver software products.  - Delivered (to production, of course) several products and evolve them from there.  - Work in different roles.  - Faced different challenges, misunderstood requirements and did bad implementations  all that allowed me to learn and evolve from it.",
+  "medium": "I'm a Software Engineer, Data Engineer, Solution Architect and  Chief Technology Officer. I'm passionate about technology and I love to learn new things. I'm always looking for new challenges and opportunities to grow professionally.",
+  "short": "The programming languages that I feel most comfortable in work with are: Java,  Javascript, and Python. I'm growing my knowledge in Kotlin and Rust, and I developed  two apps in Swift."
+ },
+ "experiences": [
+  {
+   "uid": "taus",
+   "entity": {
+    "name": "TAUS",
+    "website": "https://taus.net",
+    "logo": "https://taus.net",
+    "industry": "Translation and Localization",
+    "description": "TAUS is a resource center for the global language and translation          industries."
+   },
+   "kind": "employment",
+   "notes": "Started as a Principal Data Engineer and implemented the Data Marketplace which led to the creation of the company main Data Architecture processing over 4TB of information. Later was promoted to head of data and engineering teams and started to lead several teams across 2 countries managing over 20 people. - Led and mentored a team of software engineers of 20+ - Led the adoption of ShapeUp methodology, establishing a new way of working which helped in achieve a good team cadence and consistently make production delivery - Designed and implemented a serverless Data Architecture infrastructure and pipeline. - Defined and led several features projects for all TAUS products - Led several NLP research projects aligned with business goals with focus in improve business offerings - Defined products strategy and roadmap - Led pre-sales engagements and customer meetings",
+   "images": [],
+   "roles": [
+    {
+     "title": "Chief Technology Officer",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2022-02-01",
+      "end": "2023-12-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": {
+      "biggest_size": 23,
+      "locations": [
+       "Amsterdam",
+       "Thessaloniki"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Participate and help to define the company strategy and roadmap",
+      "Pre Sales Engagements and Customer Meetings",
+      "Lead and mentor a team of software engineers of 20+",
+      "Lead the adoption of ShapeUp methodology, establishing a new way of working"
+     ]
+    },
+    {
+     "title": "Head of Data & Engineering",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2020-09-01",
+      "end": "2022-01-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": {
+      "biggest_size": 23,
+      "locations": [
+       "Amsterdam",
+       "Thessaloniki"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Led and mentored a team of software engineers of 20+",
+      "Led the adoption of ShapeUp methodology, establishing a new way of working             which helped in achieve a good team cadence and consistently make production delivery",
+      "Defined and led several features projects for all TAUS products",
+      "Led several NLP research projects aligned with business goals with focus in             improve business offerings",
+      "Defined products strategy and roadmap"
+     ]
+    },
+    {
+     "title": "Principal Data Engineer",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2020-03-01",
+      "end": "2020-08-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": null,
+     "selfie": "",
+     "attributions": [
+      "Executed Data Marketplace (https://datamarketplace.taus.net) project.",
+      "Designed and implemented a serverless Data Architecture infrastructure and pipeline.",
+      "Project management and team leadership.",
+      "Software Architecture and design.",
+      "Product strategy and roadmap."
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Quality Estimate API",
+     "customer": null,
+     "description": "An API to estimate the quality of a translation. The API receives a machine translation language data as input and can return several metrics backed by different machine learning models.",
+     "notes": "I implemented a runtime graph-based request processing pipeline which allowed the API to process a high number of requests in a very short time leveraging concurrency and parallelism running on GPUs. Also, designed and implemented a tailored machine learning operations workflow.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2023-02-01",
+      "end": "2023-06-01"
+     },
+     "attributions": [
+      "Designed and implemented a graph-based API runtime request processing pipeline.",
+      "Implemented CI/CD pipelines with deployment support for GPUs and CPUs based architectures.",
+      "Implemented a tailored machine learning operations workflow."
+     ],
+     "expertises": [
+      {
+       "uid": "mlops",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ecs",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_s3",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_lambda",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "product_strategy",
+       "version": "N/A"
+      },
+      {
+       "uid": "python",
+       "version": "N/A"
+      },
+      {
+       "uid": "fastapi",
+       "version": "N/A"
+      },
+      {
+       "uid": "poetry",
+       "version": "N/A"
+      },
+      {
+       "uid": "pydantic",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker_compose",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "github",
+       "version": "N/A"
+      },
+      {
+       "uid": "github_actions",
+       "version": "N/A"
+      },
+      {
+       "uid": "shapeup",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "pytest",
+       "version": "N/A"
+      },
+      {
+       "uid": "locust",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ],
+     "lines_of_code": 1000
+    },
+    {
+     "name": "Model Customization Workflow",
+     "customer": null,
+     "description": "A process and architecture to allow the customization of               machine learning models to fit the business needs. The architecture streamline               company machine learning models customization operations. We leveraged open               source tools like terraform, DVC and cloud computing services to implement               an architecture that allows jobs restarting and handover among everyone in the               team.",
+     "notes": "I researched and defined the technology stack focusing in               improve business operations and reduce the cost with model customization.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2022-02-01",
+      "end": "2023-12-01"
+     },
+     "attributions": [
+      "Defined technology stack and goals",
+      "Mentored and guided the team to implement the architecture",
+      "Ensured knowledge transfer and handover among everyone in the team"
+     ],
+     "expertises": [
+      {
+       "uid": "mlops",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ec2",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_s3",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "python",
+       "version": "N/A"
+      },
+      {
+       "uid": "serverless",
+       "version": "N/A"
+      },
+      {
+       "uid": "product_strategy",
+       "version": "N/A"
+      },
+      {
+       "uid": "terraform",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "github",
+       "version": "N/A"
+      },
+      {
+       "uid": "github_actions",
+       "version": "N/A"
+      },
+      {
+       "uid": "poetry",
+       "version": "N/A"
+      },
+      {
+       "uid": "shapeup",
+       "version": "N/A"
+      },
+      {
+       "uid": "dvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "tpi",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Corporate Website Rewrite",
+     "customer": null,
+     "description": "TAUS website was outdated and using an technology stack that was slowing down the development and the user experience. There was only one developer entirely capable and responsible for the whole website, this was a dangerous situation. Also, the developer was demotivated in had to deal alone with the website needs coming from Marketing and Sales. Was decided to rewrite the website from scratch using a modern technology stack which more people in the company could contribute and maintain, and that also business could easily create and maintain content.",
+     "notes": "The situation was very serious, there was only one developer to maintain the main website and to create a new page was necessary a lot of boilerplate code. I spotted the situation and proposed to rewrite the website from scratch using a modern technology stack. The proposal was accepted, I assembled a team of 3 software engineers and we successfully made the change. Currently, business has a significant low dependency on engineering and can create content by themselves and the developer is happily working in several other projects with the technologies that he learned along the way while working on this project.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2020-09-01",
+      "end": "2021-01-01"
+     },
+     "attributions": [
+      "Designed and defined the main technology stack and mentored and guided the team to implement it.",
+      "Defined the whole project scope and business goals.",
+      "Led the team to successfully execute the project."
+     ],
+     "expertises": [
+      {
+       "uid": "lambda",
+       "version": "N/A"
+      },
+      {
+       "uid": "etl",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "product_strategy",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "N/A"
+      },
+      {
+       "uid": "css",
+       "version": "N/A"
+      },
+      {
+       "uid": "tailwindcss",
+       "version": "N/A"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "vuejs",
+       "version": "N/A"
+      },
+      {
+       "uid": "nuxtjs",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ecr",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ecs",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_cloudfront",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "stripe",
+       "version": "N/A"
+      },
+      {
+       "uid": "paypal",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "github",
+       "version": "N/A"
+      },
+      {
+       "uid": "github_actions",
+       "version": "N/A"
+      },
+      {
+       "uid": "gradle",
+       "version": "N/A"
+      },
+      {
+       "uid": "shapeup",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Corporate API",
+     "customer": null,
+     "description": "A service for user management, authentication, and authorization. Also, used for baseline data management like products, discounts, categories. Used by all TAUS applications/products.",
+     "notes": "User and products management was handled by Joomla. With the intention to discontinue Joomla was necessary to create a service to unify and handle this information.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2020-09-01",
+      "end": "2021-02-01"
+     },
+     "attributions": [
+      "Designed and defined the main technology stack and mentored and guided the team to implement it.",
+      "Defined the whole project scope and business goals.",
+      "Led the team to successfully execute the project."
+     ],
+     "expertises": [
+      {
+       "uid": "kappa",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "product_strategy",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "17"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "querydsl",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "java_bean_validation",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_boot",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_data",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_security",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_cloud",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_restdocs",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_kafka",
+       "version": "N/A"
+      },
+      {
+       "uid": "jpa",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "jackson",
+       "version": "N/A"
+      },
+      {
+       "uid": "flyway",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_rds",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_sns",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_sqs",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_msk",
+       "version": "N/A"
+      },
+      {
+       "uid": "kafka",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_s3",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_lambda",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ecs",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "stripe",
+       "version": "N/A"
+      },
+      {
+       "uid": "paypal",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "github",
+       "version": "N/A"
+      },
+      {
+       "uid": "github_actions",
+       "version": "N/A"
+      },
+      {
+       "uid": "gradle",
+       "version": "N/A"
+      },
+      {
+       "uid": "shapeup",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "integration_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "testcontainers",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Data Marketplace",
+     "customer": null,
+     "description": "An e-commerce platform to allow trading Language Data (translations).The platform allows publishing language data for sale, define the price and additional metadata like domain and content-type. Also, it allows users to search, find and buy data from other users. The platform is integrated with a payment gateway to allow the user to pay for the data and be paid when their data is sold.",
+     "notes": "I was hired to create this e-commerce platform and to help the company to move from think-tank to product driven business. This platform became helped to shape the engineering standards and practices in the company.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2020-03-01",
+      "end": "2020-08-01"
+     },
+     "attributions": [
+      "Designed and implemented the whole application leading one more engineer",
+      "Designed the data architecture and implemented the data pipeline to sustain             the application business which later became the company main data architecture."
+     ],
+     "expertises": [
+      {
+       "uid": "kappa",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "product_strategy",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "17"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "querydsl",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "java_bean_validation",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_boot",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_data",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_security",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_cloud",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_restdocs",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_kafka",
+       "version": "N/A"
+      },
+      {
+       "uid": "jpa",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "vuejs",
+       "version": "N/A"
+      },
+      {
+       "uid": "tailwindcss",
+       "version": "N/A"
+      },
+      {
+       "uid": "stripe",
+       "version": "N/A"
+      },
+      {
+       "uid": "paypal",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_rds_aurora",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_sns",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_sqs",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_s3",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_lambda",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ecs",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "github",
+       "version": "N/A"
+      },
+      {
+       "uid": "github_actions",
+       "version": "N/A"
+      },
+      {
+       "uid": "gradle",
+       "version": "N/A"
+      },
+      {
+       "uid": "shapeup",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "integration_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "testcontainers",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Data Architecture",
+     "customer": null,
+     "description": "A Data Architecture with support for data ingestion, processing, analysis, governance, security, integration, storage, and integration. The architecture was designed to be scalable and cost-effective by leveraging serverless technologies.",
+     "notes": "TAUS had their data scattered in different places with almost no structure, generating security, maintenance concerns, and as well increasing costs. In order to satisfy Data Marketplace needs, I designed and implemented a serverless data architecture and pipeline which later I extracted as a standalone project and became the company main data architecture.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2020-05-01",
+      "end": "2020-08-01"
+     },
+     "attributions": [
+      "Designed and implemented the whole application leading one more engineer",
+      "Designed the data architecture and implemented the data pipeline to sustain             the application business which later became the company main data architecture."
+     ],
+     "expertises": [
+      {
+       "uid": "lambda",
+       "version": "N/A"
+      },
+      {
+       "uid": "etl",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "microservices",
+       "version": "N/A"
+      },
+      {
+       "uid": "serverless",
+       "version": "N/A"
+      },
+      {
+       "uid": "product_strategy",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "17"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "querydsl",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "java_bean_validation",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_boot",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_data",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_security",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_cloud",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_restdocs",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_kafka",
+       "version": "N/A"
+      },
+      {
+       "uid": "jpa",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_rds_aurora",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_sns",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_sqs",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_s3",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_lambda",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ecs",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "github",
+       "version": "N/A"
+      },
+      {
+       "uid": "github_actions",
+       "version": "N/A"
+      },
+      {
+       "uid": "devops",
+       "version": "N/A"
+      },
+      {
+       "uid": "gradle",
+       "version": "N/A"
+      },
+      {
+       "uid": "shapeup",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "integration_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "testcontainers",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "teradata",
+   "entity": {
+    "name": "Teradata",
+    "website": "https://teradata.com",
+    "logo": "https://teradata.com",
+    "industry": "Information Technology and Services",
+    "description": "Teradata is a provider of database and analytics-related software,         products, and services."
+   },
+   "kind": "employment",
+   "notes": "I was actually hired by ThinkBig Analytics which was later bought by Teradata and became part of Teradata. I was responsible in helping customers to succeed on BigData and Artificial Intelligence projects. - Designed and deploy BigData projects based on Hadoop and data pipelines with Luigi, Airflow or Kylo/NiFi and consumption with Apache Kafka, Spark and others. - Designed 'MLOps' workflows which automate the process of test, train, deploy and evaluate machine learning models. Created in-house solutions as also used several open and proprietary tools and frameworks like, MLFlow, SciKitLearn, TensorFlow/Keras, PyTorch with models of type K5, ONNX, PMML, Pickle files.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Lead Data Engineer",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2017-10-01",
+      "end": "2020-03-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": {
+      "biggest_size": 3,
+      "locations": [
+       "Amsterdam"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Lead data engineering and machine learning engagements",
+      "Implement data engineering pipelines using Luigi, Airflow, Kylo/NiFi"
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Bakeoff Prognose",
+     "customer": {
+      "name": "Undisclosed Customer",
+      "website": "",
+      "logo": "",
+      "description": "One of the world’s largest supermarket retailers.",
+      "industry": "Retail"
+     },
+     "description": "A platform to forecast the quantity of baking articles to be baked in LiDL stores through Machine Learning, specifically liner regression. The platform could forecast how many baking articles should be baked in a given day, by use Machine Learning techniques predicting the ideal quantity while preserving sales. The main focus was to decrease waste. The expected savings in waste decrease was around 4Mi euros per year making this a significant company project.",
+     "notes": "Working as a Senior Data Engineer for one of the world’s largest retailers in creating a platform to generate forecast for reducing waste in baked goods using Machine Learning and numerical optimization. Executed live A/B test in a European country with >500 stores for 6 months and reached 15% waste reduction and increased revenue. Solution has been rolled out in several countries and shall finally be used in >30 countries (>10k stores). The data pipeline for this project processed around 3TB of information.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2018-12-01",
+      "end": "2020-03-01"
+     },
+     "attributions": [
+      "Implemented data pipelines using Luigi workflows",
+      "Implemented nightly baking model feature",
+      "Implemented MLOps workflows",
+      "Worldwide cost estimation for the platform"
+     ],
+     "expertises": [
+      {
+       "uid": "ab_testing",
+       "version": "N/A"
+      },
+      {
+       "uid": "model_featurization",
+       "version": "N/A"
+      },
+      {
+       "uid": "mlops",
+       "version": "N/A"
+      },
+      {
+       "uid": "python",
+       "version": "N/A"
+      },
+      {
+       "uid": "pytorch",
+       "version": "N/A"
+      },
+      {
+       "uid": "pyspark",
+       "version": "N/A"
+      },
+      {
+       "uid": "scikit-learn",
+       "version": "N/A"
+      },
+      {
+       "uid": "hadoop",
+       "version": "N/A"
+      },
+      {
+       "uid": "hive",
+       "version": "N/A"
+      },
+      {
+       "uid": "spark",
+       "version": "N/A"
+      },
+      {
+       "uid": "pandas",
+       "version": "N/A"
+      },
+      {
+       "uid": "numpy",
+       "version": "N/A"
+      },
+      {
+       "uid": "setuptools",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "scrum",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "pycharm",
+       "version": "N/A"
+      },
+      {
+       "uid": "pytest",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Cognitive Platform",
+     "customer": {
+      "name": "Undisclosed Customer",
+      "website": "",
+      "logo": "",
+      "description": "One of the biggest Spain banks.",
+      "industry": "Banking"
+     },
+     "description": "A platform to allow ingestion, processing of paper forms such as tax submissions, mortgages, loans, etc. enabling automatic submission to the target system without human intervention. The platform receives the scanned document, recognise its the type through machine learning image recognition models, split it apart in different sub images, apply OCR to gather the text, and by using other machine learning models it identifies things like ticked check boxes, with all the information captured send it to the proper Bank system for further processing.This project led to a huge time savings for the Bank by a significant decrease in manual and error-prone processing.",
+     "notes": "I was responsible for creating what was called as a 'Model Management Framework' module whose goal was to create a functional abstraction layer between the data scientists and the whole automated infrastructure. The MMF orchestrated all the steps needed to create a machine model such as testing, training, deploy and releasing. Applying strategies as 'Champion/Challenger' with multimodel version deployment. Together with the framework, a business user interface was created for the data scientist trigger training, deployments and releases for the models managed by the framework.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2018-04-01",
+      "end": "2018-11-01"
+     },
+     "attributions": [
+      "Implemented a MLOps solution called Model Management Framework responsible             for the whole machine learning models lifecycle.",
+      "Deployed the Model Management Framework and shared the knowledge             with the team."
+     ],
+     "expertises": [
+      {
+       "uid": "mlops",
+       "version": "N/A"
+      },
+      {
+       "uid": "python",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker_compose",
+       "version": "N/A"
+      },
+      {
+       "uid": "jenkins",
+       "version": "N/A"
+      },
+      {
+       "uid": "bamboo",
+       "version": "N/A"
+      },
+      {
+       "uid": "ansible",
+       "version": "N/A"
+      },
+      {
+       "uid": "aws_ec2",
+       "version": "N/A"
+      },
+      {
+       "uid": "tensorflow",
+       "version": "N/A"
+      },
+      {
+       "uid": "keras",
+       "version": "N/A"
+      },
+      {
+       "uid": "conda",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "scrum",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Open CSAM (Open Cyber Security Awareness Machine)",
+     "customer": {
+      "name": "ENISA European Union",
+      "website": "https://www.enisa.europa.eu",
+      "logo": "https://www.enisa.europa.eu",
+      "description": "The European Union Agency for Cybersecurity.",
+      "industry": "Cybersecurity"
+     },
+     "description": "Artificial intelligence enabled Cyber Security Awareness Machine. This system index cyber security information from different sources and apply NLP and Knowledge Graph techniques to enable to query the information in a more human friendly way. Allowing the user to full text search the gathered information and create an awareness report to spread throughout the European Union.",
+     "notes": "I helped to define the base architecture, managed the Elastic Search cluster, implemented the content scrapping web spiders, implemented the user interface and managed as a whole the technical aspects of the project.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2017-10-01",
+      "end": "2018-03-01"
+     },
+     "attributions": [
+      "Implemented several scrappy web spiders to gather the information.",
+      "Defined Elastic Search indexes and managed the cluster.",
+      "Helped in create the Docker based deployment pipeline.",
+      "Managed the technical aspects of the project."
+     ],
+     "expertises": [
+      {
+       "uid": "knowledge_graph",
+       "version": "N/A"
+      },
+      {
+       "uid": "mlops",
+       "version": "N/A"
+      },
+      {
+       "uid": "devops",
+       "version": "N/A"
+      },
+      {
+       "uid": "web_scraping",
+       "version": "N/A"
+      },
+      {
+       "uid": "beautifulsoup",
+       "version": "N/A"
+      },
+      {
+       "uid": "nltk",
+       "version": "N/A"
+      },
+      {
+       "uid": "scikit-learn",
+       "version": "N/A"
+      },
+      {
+       "uid": "pandas",
+       "version": "N/A"
+      },
+      {
+       "uid": "numpy",
+       "version": "N/A"
+      },
+      {
+       "uid": "scipy",
+       "version": "N/A"
+      },
+      {
+       "uid": "elasticsearch",
+       "version": "N/A"
+      },
+      {
+       "uid": "python",
+       "version": "N/A"
+      },
+      {
+       "uid": "scrappy",
+       "version": "N/A"
+      },
+      {
+       "uid": "docker",
+       "version": "N/A"
+      },
+      {
+       "uid": "ansible",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "scrum",
+       "version": "N/A"
+      },
+      {
+       "uid": "pycharm",
+       "version": "N/A"
+      },
+      {
+       "uid": "pytest",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "backbase",
+   "entity": {
+    "name": "Backbase",
+    "website": "https://backbase.com",
+    "logo": "https://backbase.com",
+    "industry": "Information Technology and Services",
+    "description": "Backbase is a Dutch software company that provides digital         banking software to financial institutions."
+   },
+   "kind": "employment",
+   "notes": "Backbase was my first full time international experience.       Was really interesting the amount of traveling that I did in such a short period       of time. Being in different part of the world doing business is a great way to       grow as a professional and as a person.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Senior Chapter Lead/Solutions Architect",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2016-06-01",
+      "end": "2017-09-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": {
+      "biggest_size": 5,
+      "locations": [
+       "Amsterdam"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Working at professional services department I was responsible for the delivery of the projects "
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Professional Services Projects",
+     "customer": {
+      "name": "Several Customers",
+      "website": "",
+      "logo": "",
+      "industry": "Banking",
+      "description": "Several customers in different countries."
+     },
+     "description": "Deliver projects for the professional services department. Which included development of customer facing interfaces, integration with customer systems, and deployment of the Backbase platform.",
+     "notes": "Most of the projects involved integration with banking systems, and creation of rich web interfaces with the Backbase platform. I help in deliver projects for several customers in different countries, including: - Banamex, Mexico: I led a complete revamp of Banamex's customer onboarding experience. - MetroBank, London: I deployed and mentored the MetroBank team in using the Backbase solution.- Valiant Bank, Switzerland: I executed a full Backbase project, including implementation, deployment, and production support.- CornerBank Group, Switzerland: I provided consultancy and mentoring services.- Íslandsbanki, Iceland: Successful Pre-Sales engagement demonstrating how Backbase platform works for key management and executive members of the bank.- CIMB Bank, Thailand: Delivered training on Backbase for Bank employees.",
+     "type": "software_consulting",
+     "period": {
+      "start": "2016-06-01",
+      "end": "2017-09-01"
+     },
+     "attributions": [
+      "Customer facing interfaces development.",
+      "Integration with customer systems.",
+      "Backbase platform deployment.",
+      "Stakeholder management."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "5"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "backbase",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "type": "technical",
+       "kind": "version_control",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "4.0"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "camel",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "scrum",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Portal Gateway Proxy",
+     "description": "A library to allow integration Provides a integration between CXP 5.6.x line to Gateway and consequently to services Registry and services deployed in the CXP 6.x version. Backbase CXP 6.x changed from monolithic architecture to microservices architecture and this library allowed integration between the two versions.",
+     "notes": "I created this library out a customer need. This library was later hand-off to the R&D department and became which later was integrated into the CXP 5.x line as standard.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2017-01-01",
+      "end": "2017-07-01"
+     },
+     "attributions": [
+      "Identified and defined the scope of the problem solved by the library.",
+      "Aligned the need and importance with other members in the team.",
+      "Implemented and shared knowledge with the team."
+     ],
+     "expertises": [
+      {
+       "uid": "problem_solving",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.5"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "camel",
+       "version": "N/A"
+      },
+      {
+       "uid": "scrum",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "oracle",
+   "entity": {
+    "name": "Oracle",
+    "website": "https://oracle.com",
+    "logo": "https://oracle.com",
+    "industry": "Information Technology and Services",
+    "description": "Oracle Corporation is an American multinational computer technology corporation headquartered in Redwood Shores, California."
+   },
+   "kind": "employment",
+   "notes": "Previously, I was instructor at Sun Microsystems, which was later bought by Oracle. I was responsible for teaching Java and Middleware technologies to the customers.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Instructor Java and Middleware",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2008-07-01",
+      "end": "2016-06-01",
+      "allocation": "part_time",
+      "type": "contractor"
+     },
+     "team": null,
+     "selfie": "",
+     "attributions": [
+      "Responsible for teaching Java and Middleware technologies to the customers."
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Trainings",
+     "customer": {
+      "name": "Several Customers",
+      "website": "",
+      "logo": "",
+      "industry": "Several",
+      "description": "Several customers in different countries."
+     },
+     "description": "Deliver trainings for the Oracle customers and partners.",
+     "notes": "I represented Sun Microsystems and later Oracle as instructor             of Java and Middleware technologies. I was responsible for teaching Java and             Middleware technologies to the customers.",
+     "type": "software_training",
+     "period": {
+      "start": "2008-07-01",
+      "end": "2016-06-01"
+     },
+     "attributions": [
+      "Instructor of Oracle Java and Middleware trainings, some of the courses.",
+      "Java Fundamentals",
+      "Java Programming",
+      "Develop Database Applications with JPA",
+      "Architect Enterprise Applications with Java EE",
+      "Developing Web Services Using Java Technology",
+      "Developing Applications for the Java EE Platform",
+      "Java Performance Tuning and Optimization",
+      "Object-Oriented Analysis and Design Using UML",
+      "Weblogic Administration Essentials",
+      "Weblogic Advanced Administration",
+      "Weblogic Diagnostic and Troubleshooting",
+      "Weblogic Monitor and Tune Performance"
+     ],
+     "expertises": [
+      {
+       "uid": "teaching",
+       "version": "N/A"
+      },
+      {
+       "uid": "coaching",
+       "version": "N/A"
+      },
+      {
+       "uid": "mentoring",
+       "version": "N/A"
+      },
+      {
+       "uid": "public_speaking",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "5"
+      },
+      {
+       "uid": "java_ee",
+       "version": "N/A"
+      },
+      {
+       "uid": "jsf",
+       "version": "N/A"
+      },
+      {
+       "uid": "jsp",
+       "version": "N/A"
+      },
+      {
+       "uid": "jpa",
+       "version": "N/A"
+      },
+      {
+       "uid": "weblogic",
+       "version": "N/A"
+      },
+      {
+       "uid": "netbeans",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "uol",
+   "entity": {
+    "name": "Universo Online (UOL)",
+    "website": "https://uol.com.br",
+    "logo": "https://uol.com.br",
+    "industry": "Internet",
+    "description": "The largest internet service provider and news portal in Brazil."
+   },
+   "kind": "employment",
+   "notes": "Working at UOL was interesting, was one of the first companies that I worked in Brazil that had a good software development process in place. They had a team dedicated to deployment automation with some good internal tools. However, they also had a lot of legacy systems and I had to deal with one of them. The system was taken 6 days to perform a simply calculation, in two months I reduced this time to 2 minutes, was a nice gig. While working at Customer Registration department I was responsible for 2 big and important applications. The first one was a system to prevent fraud in the customer registration process, and the second one was a system to calculate the commission for UOL partners. Both systems had significant deficiencies in performance which I led the team to fix and improve or I fixed myself. ",
+   "images": [],
+   "roles": [
+    {
+     "title": "Project Manager and Solutions Architect",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2013-01-01",
+      "end": "2014-01-01",
+      "allocation": "full_time",
+      "type": "contractor"
+     },
+     "team": {
+      "biggest_size": 14,
+      "locations": [
+       "São Paulo"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Team Management",
+      "Customer management",
+      "Project Management",
+      "Solutions architecture"
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Commission System",
+     "description": "A system to calculate and trigger the order of payment request for the UOL sales partners spread across the entire country. This system had to deal with a considerable amount of data which were all orders sold per month by each partner. ",
+     "notes": "When I joined this project this billing engine was performing poorly, taking around *6 days* to finish the commission calculation. I rewrote the whole calculation engine from scratch in *2 months* and by changing completely the commission calculation strategy the total time to finish the calculation was reduced to *2 minutes*.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2013-01-01",
+      "end": "2014-01-01"
+     },
+     "attributions": [
+      "Rebuild architecture",
+      "Led and coached the team to develop the features.",
+      "Deployed good software development practices.",
+      "Enforced Test Driven Development.",
+      "Managed customer expectations."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "strangler_pattern",
+       "version": "N/A"
+      },
+      {
+       "uid": "adversity_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "5"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "jetty",
+       "version": "N/A"
+      },
+      {
+       "uid": "oracle",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "idea",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Veridcad Fraud Prevention and Analysis System",
+     "description": "A rule-based system to pre and post validates any subscription             attempt of any service within the UOL company with the goal to avoid fraud.             The system applies rules like check if the Brazilian Social Security Number             (CPF) is valid and active within the Brazilian tax authorities institution,             if the CPF is registered within credit protection companies and other             internal rules.",
+     "notes": "I coordinated a team of 8 people to deploy this solution.             I was responsible to gather the requirements with the project stakeholders             and translate them in functional requirements with the team and supervise             the overall implementation.",
+     "type": "software_engineering",
+     "attributions": [
+      "Managed a team of 8 people to implement the solution.",
+      "Aligned with the project stakeholders to gather the requirements.",
+      "Managed production releases.",
+      "Supervised the overall implementation."
+     ],
+     "period": {
+      "start": "2013-01-01",
+      "end": "2014-01-01"
+     },
+     "expertises": [
+      {
+       "name": "team_management",
+       "version": "N/A"
+      },
+      {
+       "name": "project_management",
+       "version": "N/A"
+      },
+      {
+       "name": "functional_requirements_gathering",
+       "version": "N/A"
+      },
+      {
+       "name": "functional_requirements_specification",
+       "version": "N/A"
+      },
+      {
+       "name": "stakeholder_management",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "indra",
+   "entity": {
+    "name": "Indra Company",
+    "website": "https://indra.com",
+    "logo": "https://indra.com",
+    "industry": "Information Technology and Services",
+    "description": "Multinational company that provides technology solutions and services to clients in different sectors: Financial, Energy, Industry, Public Administration, Health, and Transport."
+   },
+   "kind": "employment",
+   "notes": "This work was when I could consolidate my knowledge in Java and distributed systems. This represents a significant milestone in my career. Here I had the opportunity to apply all that I've learned in the past years and to learn a lot more. My main responsibilities as Senior Solutions Architect were to help improve teams in analysis, design and implementation of systems. Architect and design the applications main building blocks, define the technology stack, define the development process, implement complex systems process. Responsibilities as Team Lead were to manage the team, estimate the projects cost, elaborate schedules, interact with the customers to understand the main scope of the projects and give feedback of the projects executions, control the whole project life cycle.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Senior Lead Solutions Architect",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2011-01-01",
+      "end": "2012-12-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": {
+      "biggest_size": 15,
+      "locations": [
+       "São Paulo"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Owner of the architecture and design of the Java applications in the Billing             department.",
+      "Managed the team, estimated the projects cost, elaborated schedules"
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Vivo Loyalty Program Platform",
+     "customer": {
+      "name": "Vivo Brasil",
+      "website": "https://www.vivo.com.br",
+      "logo": "https://www.vivo.com.br/",
+      "industry": "Telecommunications",
+      "description": "The largest telecommunications companies in Brazil."
+     },
+     "description": "Vivo Telecommunications Customer Loyalty Program platform. This project was done in house by Vivo and lately they decide to out source the maintenance to Indra.",
+     "notes": "I managed the transition of this platform from Vivo maintenance to Indra, first understanding the overall system architecture, execution and infrastructure, then created the transition schedule with the Vivo management team, and then I assembled a team on the Indra side to execute the migration, and finally I managed the migration being the main point of contact between Indra and Vivo to ensure quality. The platform was successfully migrated, and later the same team, led by me, was responsible to implement new requirements and improvements.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2012-03-01",
+      "end": "2012-05-01"
+     },
+     "attributions": [
+      "Assembled team and lead migration execution",
+      "Aligned with Vivo management team to create the transition schedule.",
+      "Managed the migration.",
+      "Managed the platform maintenance."
+     ],
+     "expertises": [
+      {
+       "uid": "crm",
+       "version": "N/A"
+      },
+      {
+       "uid": "team_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "strategic_planning",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "TIM Logistic Portal",
+     "customer": {
+      "name": "TIM Brasil",
+      "website": "https://www.tim.com.br",
+      "logo": "https://www.tim.com.br/",
+      "industry": "Telecommunications",
+      "description": "Second largest telecommunications companies in Brazil."
+     },
+     "description": "A portal to integrate multiple point of sale systems into one to handle all the logistic matters. The portal handled the creation of an order until its delivery.",
+     "notes": "When I joined this project was in a bad shape with no good management, implementation or process in place. I managed and led a team of 12 people to rebuild this platform being responsible for the overall architecture refactoring, scalability, and performance improvements. Also, I deployed an agile way of work applying good software development practices which leveraged significantly the team and project performance. Was enforced a Test Driven Development coaching the team to understand and apply those methodologies. In a timeframe of 3 months, the team came up with better deliveries, and we regained the customer satisfaction.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2011-01-01",
+      "end": "2012-02-01"
+     },
+     "attributions": [
+      "Rebuild architecture",
+      "Led and coached the team to develop the features.",
+      "Deployed good software development practices.",
+      "Enforced Test Driven Development.",
+      "Managed customer expectations."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "adversity_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "5"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "git",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "weblogic",
+       "version": "N/A"
+      },
+      {
+       "uid": "nexus",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "netbeans",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "nextel",
+   "entity": {
+    "name": "Nextel Telecomunicações",
+    "website": "https://nextel.com.br",
+    "logo": "https://nextel.com.br",
+    "industry": "Telecommunications",
+    "description": "Important telecommunications company in Brazil, the biggest one offering the IDEN technology."
+   },
+   "notes": "I had an impactful presence in Next Billing department, being responsible for the development of many important applications that contributed to significant improvements in the company's billing department. Key achievements: — Started to make use of Apache Maven build tool which was adopted by the department. - Adopted test driven development using JUnit and shared this knowledge with the team. - Created a SOA infrastructure for applications that I was responsible for and over time this architecture was adopted by members of the department. - Leading by example, I was able to show the benefits of using the best practices of development and the importance of using the best tools for the job.Also, I had an opportunity to work close with the BSCS Billing System, which allowed me to learn a lot about the system and how to integrate with it and manage its main services, such as billing, rating, mediation, provisioning, etc.",
+   "kind": "employment",
+   "images": [],
+   "roles": [
+    {
+     "title": "Solutions Architect",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2006-12-01",
+      "end": "2010-08-01",
+      "allocation": "full_time",
+      "type": "contractor"
+     },
+     "team": {
+      "biggest_size": 6,
+      "locations": [
+       "São Paulo"
+      ]
+     },
+     "selfie": "",
+     "attributions": [
+      "Team Leadership",
+      "Project Management",
+      "Application architecture",
+      "Application design"
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Pre Paid SMS Billing Platform",
+     "description": "A system to support the prepaid SMS billing for the Nextel Telecomunicações. The system was responsible to process all CDR files coming from different places and parse, calculate and register the SMS billing in the BSCS system.",
+     "notes": "BSCS at that time didn't have a good support for prepaid SMS billing, so I was responsible to create a platform to support this. *The challenge was great and very rewarding.* The goal was to process all CDR files coming from different places and parse, calculate and register the SMS billing in the BSCS system. This lead to the creation of several archiectural components like: a CDR parser, a billing calculator, a BSCS integration module, a web interface to manage the system, and a lot of other components. Very interesting project.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2009-07-01",
+      "end": "2010-08-01"
+     },
+     "attributions": [
+      "Architected and implemented the whole system.",
+      "Implemented Service Oriented Architecture (SOA).",
+      "Evolved existing features and modules.",
+      "Maintained existing features and modules.",
+      "Production support."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "jsf",
+       "version": "N/A"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "weblogic",
+       "version": "N/A"
+      },
+      {
+       "uid": "bscs",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "netbeans",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Service Platform",
+     "description": "A platform to apply targeted promotions to customers based on             their mobile devices.",
+     "notes": "The platform works by consuming CDR files and based on the IMEI             used on a phone call or sms message enables promotions to customers.             I architected and implemented the whole platform, handling the CDR consumption,             parsing and wrangling, and afterward applying the configured promotion based             on the device found in the CDR. This was a heavy data processing platform             that I assured scalability, performance and data integrity.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2008-04-01",
+      "end": "2009-06-01"
+     },
+     "attributions": [
+      "Architected and implemented the whole system.",
+      "Implemented several features and modules.",
+      "Evolved existing features and modules.",
+      "Maintained existing features and modules.",
+      "Production support."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "weblogic",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "bscs",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "netbeans",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "SHIFT - Fraud Analysis and Prevention",
+     "description": "A platform to help Nextel Revenue Assurance department to             analysis and prevent fraud. This systems was actually developed by             Nextel Argentina and ported to Nextel Brazil.",
+     "notes": "I was the architect responsible for the manage on the technical             side the migration to the Brazilian market. First in Argentina I understood             the overall system architecture, execution and infrastructure, then I             prepared the same requirements on Nextel Brazil infrastructure and finally             I did the migration, deploying the platform on Nextel Brazil and adapting             all the rules to the Brazilian market.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2007-02-01",
+      "end": "2008-03-01"
+     },
+     "attributions": [
+      "Architecture understanding and migration.",
+      "Business rules porting.",
+      "Infrastructure planning and deployment.",
+      "Production support."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "weblogic",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "netbeans",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Traffic Analysis",
+     "description": "A platform to monitoring and ensure that each one of the CDR files that arrived for billing would make into the billing platform (BSCS). There are some stages that a CDR file pass through until finally the services used by the user get billed. This system had the goal of keep track of each file showing on which stage in the chain it was triggering alarms in case of a a file stayed in the same stage for a configured threshold.",
+     "notes": "This was a very interesting project. I was responsible for the           design and definition of the technology stack, and I led a team of 3 engineers           to implement the system.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2006-12-01",
+      "end": "2007-01-01"
+     },
+     "attributions": [
+      "Architected and designed the whole system.",
+      "Led a team of 3 engineers to deliver the system."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "maven",
+       "version": "N/A"
+      },
+      {
+       "uid": "jsf",
+       "version": "1.0"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "weblogic",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "bscs",
+       "version": "N/A"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "netbeans",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "balance",
+   "entity": {
+    "name": "Balance Consulting",
+    "website": "https://balanceconsultoria.com.br",
+    "logo": "",
+    "industry": "Consulting",
+    "description": "Consulting firm in the field of ERP/SAP and web applications."
+   },
+   "kind": "employment",
+   "notes": "I joined this consulting firm as a Senior Java Consultant and due to my exposure to a set of different SAP/ABAP projects soon enough I got experience with it, and after 10 months I was a certified SAP/ABAP professional.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Senior Java/ABAP Consultant",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2005-12-01",
+      "end": "2006-11-01",
+      "allocation": "full_time",
+      "type": "contractor"
+     },
+     "team": null,
+     "selfie": "",
+     "attributions": [
+      "Helped several companies to implement SAP R3/GUI and web applications."
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Market Data Integration",
+     "description": "Integrating Claro Online Store with the Claro Clube Loyalty Program to allow present the lolalty points balance to customers.",
+     "notes": "This was an almost ad-hoc project. I worked on it for 2 months just to integrate the Claro Online Store with the Claro Clube Loyalty Program  in the Claro customer portal.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2006-11-01",
+      "end": "2006-11-01"
+     },
+     "customer": {
+      "name": "Claro Brasil",
+      "website": "https://www.claro.com.br",
+      "logo": "https://www.claro.com.br/",
+      "industry": "Telecommunications",
+      "description": "One of the largest telecommunications companies in Brazil."
+     },
+     "attributions": [
+      "Integrated the Claro Online Store with the Claro Clube Loyalty Program."
+     ],
+     "expertises": [
+      {
+       "name": "mvc",
+       "version": "N/A"
+      },
+      {
+       "name": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "name": "sap_java_connector",
+       "version": "N/A"
+      },
+      {
+       "name": "abap",
+       "version": "N/A"
+      },
+      {
+       "name": "ant",
+       "version": "N/A"
+      },
+      {
+       "name": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "name": "struts",
+       "version": "N/A"
+      },
+      {
+       "name": "log4j",
+       "version": "N/A"
+      },
+      {
+       "name": "tomcat",
+       "version": "N/A"
+      },
+      {
+       "name": "sap",
+       "version": "N/A"
+      },
+      {
+       "name": "java",
+       "version": "1.4"
+      },
+      {
+       "name": "svn",
+       "version": "N/A"
+      },
+      {
+       "name": "jenkins",
+       "version": "N/A"
+      },
+      {
+       "name": "javascript",
+       "version": "N/A"
+      },
+      {
+       "name": "html",
+       "version": "4.0"
+      },
+      {
+       "name": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "eclipse",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Point of Sale Kiosk",
+     "description": "A system for the sales team to be used in the apartments points of sale showcase to facilitate the prospect creation and follow up.",
+     "notes": "This applications was stable when I joined, I was just responsible to maintain it and offer support.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2006-10-01",
+      "end": "2006-10-01"
+     },
+     "customer": {
+      "name": "Rossi Residencial",
+      "website": "https://www.rossiresidencial.com.br",
+      "logo": "https://www.rossiresidencial.com.br",
+      "industry": "Real Estate",
+      "description": "One of the largest real estate companies in Brazil."
+     },
+     "attributions": [
+      "Carrying out maintenance and development of new system features             supporting the sales kiosks."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "birt_reports",
+       "version": "N/A"
+      },
+      {
+       "uid": "cewolf",
+       "version": "N/A"
+      },
+      {
+       "uid": "ms_sql_server",
+       "version": "N/A"
+      },
+      {
+       "uid": "sap_java_connector",
+       "version": "N/A"
+      },
+      {
+       "uid": "abap",
+       "version": "N/A"
+      },
+      {
+       "uid": "ant",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "struts",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "tomcat",
+       "version": "N/A"
+      },
+      {
+       "uid": "sap",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "jenkins",
+       "version": "N/A"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "eclipse",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Desembolso (Disbursement)",
+     "description": "A friendly web interface aimed to the retail employees to avoid make them use SAP/R3 GUI, the provided web interface allowed the subsidiaries of C&A perform operational applications to the matrix. This would allow the subsidiaries to request the release of funds for the payment of suppliers, place orders for store supplies, etc.",
+     "notes": "I created the web interface, integrate it with SAP Function Modules and created the SAP Function Modules as well. Did the whole system implementation. The web interface was just a proxy to the function modules created in SAP. The idea was to streamline the ordering process of the subsidiaries without providing all infrastructure SAP/R3 GUI to them.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2006-08-01",
+      "end": "2006-09-01"
+     },
+     "customer": {
+      "name": "C&A",
+      "website": "https://www.cea.com.br",
+      "logo": "https://www.cea.com.br/",
+      "industry": "Retail",
+      "description": "One of the World's largest fashion retailers."
+     },
+     "attributions": [
+      "Created SAP Module Function to act as an API to the web application.",
+      "Integrated the web application with the SAP Function Modules.",
+      "Implemented all system flows, features and modules.",
+      "Gathered requirements and designed the application."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "sap_java_connector",
+       "version": "N/A"
+      },
+      {
+       "uid": "abap",
+       "version": "N/A"
+      },
+      {
+       "uid": "ant",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "struts",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "tomcat",
+       "version": "N/A"
+      },
+      {
+       "uid": "sap",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "jenkins",
+       "version": "N/A"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "eclipse",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "HR Corporate Portal",
+     "description": "A corporate portal for the HR department with features like employee register, benefits management, financial control, reports, user, payroll, payslip access.",
+     "notes": "This was my first experience with SAP and ABAP.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2006-05-01",
+      "end": "2006-07-01"
+     },
+     "customer": {
+      "name": "Cia Suzano de Papel e Celulose",
+      "website": "https://www.suzano.com.br",
+      "logo": "https://www.suzano.com.br/",
+      "industry": "Pulp and Paper",
+      "description": "One of the largest pulp and paper companies in Latin America."
+     },
+     "attributions": [
+      "Implemented several features and modules.",
+      "Evolved existing features and modules.",
+      "Maintained existing features and modules.",
+      "Production support."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "webdynpro",
+       "version": "N/A"
+      },
+      {
+       "uid": "abap",
+       "version": "N/A"
+      },
+      {
+       "uid": "sap_portal",
+       "version": "N/A"
+      },
+      {
+       "uid": "sap",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "cxf",
+       "version": "N/A"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "eclipse",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    },
+    {
+     "name": "Sistema Excelência (Excellence System)",
+     "description": "A system to enable employee engagement and transparency on  the company processes. The system had several modules like: a module that  allows employees of Suzano Papel e Cellulose to offer ideas for the company  processes improvement, cost reduction, quality of life or environmental  responsibility. A module to provide a means to manage documents with approval  control from different user levels. A control module to audit company  internal processes.",
+     "notes": "When I joined this system was implemented but wasn't performing  well, a lot of bottle necks and low performance code were degrading its  efficiency. I worked on find those issues, fix them and restore system  stability. Afterwards I worked on enhance the modules with new features.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2005-12-01",
+      "end": "2006-04-01"
+     },
+     "customer": {
+      "name": "Cia Suzano de Papel e Celulose",
+      "website": "https://www.suzano.com.br",
+      "logo": "https://www.suzano.com.br/",
+      "industry": "Pulp and Paper",
+      "description": "One of the largest pulp and paper companies in Latin America."
+     },
+     "attributions": [
+      "Performance improvement though profiling and tracing.",
+      "Bug fixing.",
+      "Implemented several features and modules.",
+      "Evolved existing features and modules.",
+      "Maintained existing features and modules.",
+      "Production support."
+     ],
+     "expertises": [
+      {
+       "uid": "project_management",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "tapestry",
+       "version": "N/A"
+      },
+      {
+       "uid": "birt_reports",
+       "version": "N/A"
+      },
+      {
+       "uid": "spring_framework",
+       "version": "N/A"
+      },
+      {
+       "uid": "log4j",
+       "version": "N/A"
+      },
+      {
+       "uid": "ehcache",
+       "version": "N/A"
+      },
+      {
+       "uid": "hibernate",
+       "version": "N/A"
+      },
+      {
+       "uid": "tomcat",
+       "version": "N/A"
+      },
+      {
+       "uid": "java",
+       "version": "1.4"
+      },
+      {
+       "uid": "svn",
+       "version": "N/A"
+      },
+      {
+       "uid": "ant",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "eclipse",
+       "version": "N/A"
+      },
+      {
+       "uid": "junit",
+       "version": "N/A"
+      },
+      {
+       "uid": "unit_testing",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "gelre",
+   "entity": {
+    "name": "Gelre Trabalhos Temporários",
+    "website": "https://gelre.com.br",
+    "logo": "",
+    "industry": "Human Resources",
+    "description": "Private human resources company in the temporary and permanent hiring contract management outsource business."
+   },
+   "kind": "employment",
+   "notes": "In this company, I had a great experience on how team work can make things happen. I worked together with other 20 people to implement an in house ERP system for the 3 companies of the Gelre group. We constantly discussed and tested different approaches for software development, test, quality assurance, deploy, etc.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Senior Java Developer",
+     "kind": "software_engineering",
+     "selfie": "",
+     "attributions": [
+      "Collaborate with business, product and engineering teams to define and implement features and modules for the S.I.G. - Sistemas Integrados Gelre."
+     ],
+     "period": {
+      "start": "2003-03-01",
+      "end": "2005-12-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": null
+    }
+   ],
+   "activities": [
+    {
+     "name": "S.I.G. - Sistemas Integrados Gelre (Integrated Gelre Systems)",
+     "description": "A system that integrates all companies of the Gelre Group: Atra, Gelre Trabalhos Temporários and Central de Estágios. The system offered the means to achieve common business processes, processes that involve maintenance of the employee register, benefits management, financial control, reports, user authentication and authorization.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2003-03-01",
+      "end": "2005-12-01"
+     },
+     "attributions": [
+      "Implemented several features and modules.",
+      "Brought AJAX (Asynchronous Javascript and XML technique to the company.",
+      "Production support.",
+      "Requirements definition and design."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "N/A"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "N/A"
+      },
+      {
+       "uid": "jsp",
+       "version": "2.1"
+      },
+      {
+       "uid": "servlets",
+       "version": "2.1"
+      },
+      {
+       "uid": "java",
+       "version": "1.3"
+      },
+      {
+       "uid": "javascript",
+       "version": "N/A"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "sql",
+       "version": "N/A"
+      },
+      {
+       "uid": "eclipse_ide",
+       "version": "N/A"
+      },
+      {
+       "uid": "apache_fop",
+       "version": "N/A"
+      },
+      {
+       "uid": "ibm_websphere",
+       "version": "N/A"
+      },
+      {
+       "uid": "oracle",
+       "version": ""
+      },
+      {
+       "uid": "cvs",
+       "version": "N/A"
+      },
+      {
+       "uid": "eclipse",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "joaomendes",
+   "entity": {
+    "name": "Forum João Mendes",
+    "website": "https://www.tjsp.jus.br",
+    "logo": "",
+    "industry": "Public",
+    "description": "Public institution responsible to operate several public justice         activities."
+   },
+   "kind": "employment",
+   "notes": "I always wanted to work as a Software Engineer, this was one of my formal        early experiences in the field. However, this is a bit of bureaucratic institution        where move forward with things was a little difficult. Even so, I managed to        deliver the majority of tasks that I was assigned for.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Java Developer",
+     "kind": "software_engineering",
+     "selfie": "",
+     "attributions": [
+      "Working as Java Developer mainly in the             Online Asset Splitting Management application."
+     ],
+     "period": {
+      "start": "2000-11-01",
+      "end": "2002-05-01",
+      "allocation": "part_time",
+      "type": "internship"
+     },
+     "team": null
+    }
+   ],
+   "activities": [
+    {
+     "name": "Online Asset Splitting Management",
+     "description": "Implemented most of the system modules: user management, assetmanagement, fixing bugs, overall support.",
+     "notes": "This was my first experience with Java and Web Development.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2000-11-01",
+      "end": "2002-05-01"
+     },
+     "attributions": [
+      "Implemented user management module.",
+      "Implemented user authentication and authorization module.",
+      "Implemented assets management module.",
+      "Overall production support and monitoring."
+     ],
+     "expertises": [
+      {
+       "uid": "mvc",
+       "version": "n/a"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "n/a"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "javascript",
+       "version": "n/a"
+      },
+      {
+       "uid": "jsp",
+       "version": "2.1"
+      },
+      {
+       "uid": "servlets",
+       "version": "2.1"
+      },
+      {
+       "uid": "struts",
+       "version": "2.0"
+      },
+      {
+       "uid": "java",
+       "version": "1.3"
+      },
+      {
+       "uid": "tomcat",
+       "version": "3.0"
+      },
+      {
+       "uid": "mysql",
+       "version": "n/a"
+      },
+      {
+       "uid": "sql",
+       "version": "n/a"
+      },
+      {
+       "uid": "eclipse",
+       "version": "n/a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "telefonica",
+   "entity": {
+    "name": "Telefonica",
+    "website": "https://www.telefonica.com.br",
+    "logo": "",
+    "industry": "Telecommunications",
+    "description": "One of biggest telecommunications company from Brazil. Later merged       with other companies and became Vivo."
+   },
+   "kind": "employment",
+   "images": [],
+   "notes": "I had a impactful time while working for Telefonica Brazil specifically for       its broadband internet help desk division. Was a great time where I got to supervise        more than 60 people from several help desk turns and also I got very deep into       telecommunications technical knowledge.       In 9 months, I became a supervisor of a staff of 60 people with the       responsibility to do monitoring, action plans aimed at customer support excellency       quality and overall people management.",
+   "roles": [
+    {
+     "title": "Supervisor Help Desk",
+     "kind": "help_desk",
+     "selfie": "",
+     "period": {
+      "start": "2000-05-01",
+      "end": "2000-10-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": {
+      "biggest_size": 68,
+      "locations": [
+       "São Paulo"
+      ]
+     },
+     "attributions": [
+      "Developed activities of Senior Technical Support             Analyst, seeking to solve critical and serious or complex problems related to             Speedy & Multilink broadband products."
+     ]
+    },
+    {
+     "title": "Help Desk Analyst II",
+     "kind": "help_desk",
+     "selfie": "",
+     "period": {
+      "start": "1999-08-01",
+      "end": "2000-05-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "team": null,
+     "attributions": [
+      "Developed activities of Senior Technical Support             Analyst, seeking to solve critical and serious or complex problems related to             Speedy & Multilink broadband products."
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Help Desk Intranet",
+     "description": "Dynamic intranet with support for report critical customer issues directly to the back office team. This application significantly increased the help desk operations productivity by allowing direct contact between analysts and back office team leading to fast response times and resolution of critical issues and access to historical customer requests all contributing to overall customer satisfaction.",
+     "notes": "This project generated and huge impact in the whole Telefonica broadband internet help desk department and catapulted my exposure to the whole company. I was invited to talk about this project with company executives and even received an internal award. Also, was really nice to implement a solution that was so impactful and that was used by so many people. I grew a lot with this project.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2000-03-01",
+      "end": "2000-10-01"
+     },
+     "attributions": [
+      "Completely idealized the solution.",
+      "Designed Implemented the everything.",
+      "Deployed and managed the application.",
+      "Created interface with print screens of the most used operational systems at the time: Linux, Windows 3.11, 95, 98 and NT showing how to configure the dial up internet connection."
+     ],
+     "expertises": [
+      {
+       "uid": "project_management",
+       "version": "n/a",
+       "how_i_applied": "I managed the project from the beginning to the end."
+      },
+      {
+       "uid": "mvc",
+       "version": "n/a"
+      },
+      {
+       "uid": "distributed_systems",
+       "version": "n/a"
+      },
+      {
+       "uid": "html",
+       "version": "4.0"
+      },
+      {
+       "uid": "css",
+       "version": "1.0"
+      },
+      {
+       "uid": "asp",
+       "version": "n/a"
+      },
+      {
+       "uid": "iis",
+       "version": "n/a"
+      },
+      {
+       "uid": "ms_access",
+       "version": "n/a"
+      },
+      {
+       "uid": "vb_script",
+       "version": "n/a"
+      },
+      {
+       "uid": "sql",
+       "version": "n/a"
+      }
+     ]
+    },
+    {
+     "name": "Help Desk Analyst OnBoard Process",
+     "description": "Structure and define the onboarding process when a new             Help Desk I analyst joins.",
+     "notes": "This was my first experience with people management and with               trainings. I got some deep knowledge into the TCP/IP stack and the OSI model               through trainings that I attend which later I would train my team. Learn               through teaching is a great way to learn.",
+     "type": "business_process_improvement",
+     "period": {
+      "start": "2000-01-01",
+      "end": "2000-05-01"
+     },
+     "attributions": [
+      "Defined the onboard steps.",
+      "Defined training contents.",
+      "Created exams questions.",
+      "Defined interview questions.",
+      "Executed interviews."
+     ],
+     "expertises": [
+      {
+       "uid": "problem_solving",
+       "version": "n/a",
+       "how_i_applied": "I collected all the common issues that the new analysts would face and created a training and the whole onboard process to address those issues."
+      },
+      {
+       "uid": "process_definition",
+       "version": "N/A",
+       "how_i_applied": "I collected all the common issues that the new analysts would face and created a training and the whole onboard process to address those issues."
+      },
+      {
+       "uid": "creative_thinking",
+       "version": "N/A",
+       "how_i_applied": "I worked out a training to would involve technical, theoretical and practical knowledge. The analysts would even do physical customer visits with experienced field technician to understand the customer issues."
+      },
+      {
+       "uid": "decision_making",
+       "version": "N/A",
+       "how_i_applied": "I had to decide which training would be more effective and which would be the best way to onboard a new analyst."
+      }
+     ]
+    },
+    {
+     "name": "Telefonica Speedy Help Desk II",
+     "description": "Helped customers to solve internet connection issues, email clients configuration for all operating systems.",
+     "notes": "This was my first experience with formal help desk and with internet connections. I learned a lot about TCP/IP stack and the OSI model.",
+     "type": "help_desk",
+     "period": {
+      "start": "1999-08-01",
+      "end": "2000-05-01"
+     },
+     "attributions": [
+      "Solving internet connections issues, email clients configuration for all operating systems."
+     ],
+     "expertises": [
+      {
+       "uid": "problem_solving",
+       "version": "n/a",
+       "how_i_applied": "Don't need to say much, right?"
+      },
+      {
+       "uid": "attention_to_detail",
+       "version": "n/a",
+       "how_i_applied": "Really important when customers and using new things."
+      },
+      {
+       "uid": "adaptability",
+       "version": "N/A",
+       "how_i_applied": "I had to adapt to different customer profiles."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "sbt",
+   "entity": {
+    "name": "Sistema Brasileiro de Televisão",
+    "website": "https://www.sbt.com.br",
+    "logo": "",
+    "industry": "Media",
+    "description": "Internet connection provider from SBT, the second biggest TV         tv channel in Brazil at the time."
+   },
+   "kind": "employment",
+   "notes": "One of my first formal jobs. I was already experienced in configure internet connections due my joy in mount and install computers informally as business and also for family and friends. Here I just got to do a specific part of it in a higher scale.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Help Desk II",
+     "kind": "help_desk",
+     "selfie": "",
+     "period": {
+      "start": "1998-10-01",
+      "end": "1999-08-01",
+      "allocation": "full_time",
+      "type": "employee"
+     },
+     "attributions": [
+      "Solving internet connections issues, email clients configuration for all operating systems.",
+      "General internet help desk."
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Internet Connection Help Desk",
+     "description": "Helped customers to solve internet connection issues, email clients configuration for all operating systems.",
+     "notes": "This was my first experience with formal help desk and with internet connections. I learned a lot about TCP/IP stack and the OSI model.",
+     "type": "help_desk",
+     "period": {
+      "start": "1998-10-01",
+      "end": "1999-08-01"
+     },
+     "attributions": [
+      "Solving internet connections issues, email clients configuration for all operating systems."
+     ],
+     "expertises": [
+      {
+       "uid": "problem_solving",
+       "version": "n/a"
+      },
+      {
+       "uid": "attention_to_detail",
+       "version": "n/a"
+      },
+      {
+       "uid": "adaptability",
+       "version": "N/A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "apache_camel_1",
+   "entity": {
+    "name": "apache camel",
+    "website": "https://camel.apache.org",
+    "logo": "",
+    "industry": "Open Source",
+    "description": "Apache Camel is a powerful open source integration framework based on known Enterprise Integration Patterns with powerful bean integration."
+   },
+   "kind": "volunteering",
+   "notes": "I contributed to the Apache Camel project by creating to the AWS S3 module that would allow copy files from S3 in streaming mode.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Contributor",
+     "kind": "software_engineering",
+     "period": {
+      "start": "2020-04-01",
+      "end": "2020-10-01",
+      "allocation": "part_time",
+      "type": "volunteer"
+     },
+     "team": null,
+     "attributions": [
+      "Added support for streaming download from AWS S3 to the AWS S3 module"
+     ]
+    }
+   ],
+   "activities": [
+    {
+     "name": "Apache Camel AWS S3 Streaming Download",
+     "description": "Added support for streaming download from AWS S3 to the AWS S3 module.",
+     "notes": "I was working on a project that needed to copy files from S3 in streaming               mode. I found that the AWS S3 module from Apache Camel didn't support that, so I               implemented it and contributed back to the project.",
+     "type": "software_engineering",
+     "period": {
+      "start": "2020-04-01",
+      "end": "2020-10-01"
+     },
+     "links": [
+      {
+       "name": "Pull Request",
+       "url": "https://github.com/apache/camel/pull/4274"
+      }
+     ],
+     "attributions": [
+      "Added support for streaming download from AWS S3 to the AWS S3 module."
+     ],
+     "expertises": [
+      {
+       "uid": "java",
+       "version": "17"
+      },
+      {
+       "uid": "camel",
+       "version": "3.10"
+      },
+      {
+       "uid": "aws_s3",
+       "version": null
+      },
+      {
+       "uid": "maven",
+       "version": null
+      },
+      {
+       "uid": "idea",
+       "version": null
+      },
+      {
+       "uid": "unit_testing",
+       "version": null
+      },
+      {
+       "uid": "integration_testing",
+       "version": null
+      },
+      {
+       "uid": "localstack",
+       "version": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "puc",
+   "entity": {
+    "name": "Pontifícia Universidade Católica de São Paulo",
+    "website": "https://www.pucsp.br",
+    "logo": "",
+    "industry": "Education",
+    "description": "One of the most traditional universities in Brazil."
+   },
+   "kind": "education",
+   "notes": "I was a student at PUC-SP, I was studying Computer Science and I was already working as a Help Desk II at SBT. I was a student at night and worked during the day. I was a student at PUC-SP from 1999 to 2004.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Computer Sciences Student",
+     "kind": "student",
+     "period": {
+      "start": "1999-01-01",
+      "end": "2004-12-01",
+      "allocation": "part_time",
+      "type": "student"
+     },
+     "team": null,
+     "attributions": [
+      "Computer Sciences student."
+     ]
+    }
+   ],
+   "activities": []
+  },
+  {
+   "uid": "fgv",
+   "entity": {
+    "name": "Fundação Getúlio Vargas",
+    "website": "https://www.fgv.br",
+    "logo": "",
+    "industry": "Education",
+    "description": "One of the most traditional universities in Brazil."
+   },
+   "kind": "education",
+   "notes": "I was a student at FGV, I was studying Business Administration and I was",
+   "images": [],
+   "roles": [
+    {
+     "title": "Business Administration Student",
+     "kind": "student",
+     "period": {
+      "start": "2010-01-01",
+      "end": "2011-12-01",
+      "allocation": "part_time",
+      "type": "student"
+     },
+     "team": null,
+     "attributions": [
+      "Business Administration student."
+     ]
+    }
+   ],
+   "activities": []
+  },
+  {
+   "uid": "senac",
+   "entity": {
+    "name": "Serviço Nacional de Aprendizagem Comercial (SENAC)",
+    "website": "https://www.sp.senac.br",
+    "logo": "",
+    "industry": "Education",
+    "description": "University focused on professional education for industry and commerce."
+   },
+   "kind": "employment",
+   "notes": "Associate Professor involved in disciplines around principles of software engineering like design patterns, object oriented software analysis and design, the different programming languages and good practices in software architecture and technologies.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Associate Professor",
+     "kind": "educator",
+     "period": {
+      "start": "2011-01-01",
+      "end": "2012-12-01",
+      "allocation": "part_time",
+      "type": "contractor"
+     },
+     "team": null,
+     "attributions": [
+      "Providing technical and theoretical classes.",
+      "Creating and applying exams, tests and assignments.",
+      "Mentoring and tutoring."
+     ]
+    }
+   ],
+   "activities": []
+  },
+  {
+   "uid": "databricks",
+   "entity": {
+    "name": "Databricks",
+    "website": "https://databricks.com",
+    "logo": "",
+    "industry": "Technology",
+    "description": "Databricks is a company founded by the creators of Apache Spark,           that aims to help clients with big data and artificial intelligence solutions."
+   },
+   "kind": "specialization",
+   "notes": "I took a specialization course in Databricks to learn more about big data         and artificial intelligence. I was already working with big data and machine learning         and I wanted to deepen my knowledge in these areas.",
+   "images": [],
+   "roles": [
+    {
+     "title": "Attendee",
+     "kind": "student",
+     "period": {
+      "start": "2023-12-01",
+      "end": null,
+      "allocation": "part_time",
+      "type": "self_study"
+     },
+     "team": null,
+     "attributions": [
+      "Student in the Databricks Specialization Course."
+     ]
+    }
+   ],
+   "activities": []
+  }
+ ]
+}

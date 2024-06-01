@@ -1,0 +1,1354 @@
+[
+ {
+  "uid": "mvc",
+  "name": "mvc",
+  "type": "pattern",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "kappa",
+  "name": "kappa",
+  "type": "architecture",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "lambda",
+  "name": "lambda",
+  "type": "architecture",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "microservices",
+  "name": "microservices",
+  "type": "architecture",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "serverless",
+  "name": "serverless",
+  "type": "architecture",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "distributed_systems",
+  "name": "distributed systems",
+  "type": "architecture",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "strangler_pattern",
+  "name": "strangler pattern",
+  "type": "pattern",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "devops",
+  "name": "devops",
+  "type": "discipline",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "mlops",
+  "name": "mlops",
+  "type": "discipline",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "web_scraping",
+  "name": "web scraping",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "etl",
+  "name": "etl",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "ab_testing",
+  "name": "a/b testing",
+  "type": "technique",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "model_featurization",
+  "name": "model featurization",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "knowledge_graph",
+  "name": "knowledge graph",
+  "type": "natural_language_processing",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "machine_learning",
+  "name": "machine learning",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "deep_learning",
+  "name": "deep learning",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "reinforcement_learning",
+  "name": "reinforcement learning",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "supervised_learning",
+  "name": "supervised learning",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "unsupervised_learning",
+  "name": "unsupervised learning",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "recommender_systems",
+  "name": "recommender systems",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "natural_language_processing",
+  "name": "natural language processing",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "computer_vision",
+  "name": "computer vision",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "recommender_systems",
+  "name": "recommender systems",
+  "type": "technique",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "scrappy",
+  "name": "scrappy",
+  "type": "framework",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "nltk",
+  "name": "nltk",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "elasticsearch",
+  "name": "elasticsearch",
+  "type": "engine",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "elastic"
+ },
+ {
+  "uid": "scikit-learn",
+  "name": "scikit-learn",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "scipy",
+  "name": "scipy",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "numpy",
+  "name": "numpy",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "pandas",
+  "name": "pandas",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "beautifulsoup",
+  "name": "beautiful soup",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "tensorflow",
+  "name": "tensorflow",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "google"
+ },
+ {
+  "uid": "keras",
+  "name": "keras",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "pytorch",
+  "name": "pytorch",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "facebook"
+ },
+ {
+  "uid": "pytest",
+  "name": "pytest",
+  "type": "library",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "locust",
+  "name": "locust",
+  "type": "library",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "theano",
+  "name": "theano",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "caffe",
+  "name": "caffe",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "mxnet",
+  "name": "mxnet",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "shapeup",
+  "name": "shapeup",
+  "type": "methodology",
+  "kind": "general",
+  "category": "entrepreneurship",
+  "vendor": "basecamp"
+ },
+ {
+  "uid": "scrum",
+  "name": "scrum",
+  "type": "methodology",
+  "kind": "general",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "html",
+  "name": "html",
+  "type": "markup_stylesheet_language",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "w3c"
+ },
+ {
+  "uid": "css",
+  "name": "css",
+  "type": "markup_stylesheet_language",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "w3c"
+ },
+ {
+  "uid": "tailwindcss",
+  "name": "tailwindcss",
+  "type": "framework",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "tailwindcss"
+ },
+ {
+  "uid": "javascript",
+  "name": "javascript",
+  "type": "programming_language",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "vuejs",
+  "name": "vuejs",
+  "type": "framework",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "vuejs"
+ },
+ {
+  "uid": "nuxtjs",
+  "name": "nuxtjs",
+  "type": "framework",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "nuxtjs"
+ },
+ {
+  "uid": "jsp",
+  "name": "java server pages",
+  "type": "api",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "jsf",
+  "name": "java server faces",
+  "type": "api",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "java_ee",
+  "name": "java ee",
+  "type": "api",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "servlets",
+  "name": "java servlets",
+  "type": "api",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "struts",
+  "name": "struts",
+  "type": "framework",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "webdynpro",
+  "name": "webdynpro",
+  "type": "framework",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "sap"
+ },
+ {
+  "uid": "sap_java_connector",
+  "name": "sap java connector",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "sap"
+ },
+ {
+  "uid": "sap_portal",
+  "name": "sap portal",
+  "type": "cms",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "sap"
+ },
+ {
+  "uid": "abap",
+  "name": "abap",
+  "type": "programming_language",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "sap"
+ },
+ {
+  "uid": "sap",
+  "name": "sap",
+  "type": "erp",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "sap"
+ },
+ {
+  "uid": "backbase",
+  "name": "backbase",
+  "type": "cms",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "backbase"
+ },
+ {
+  "uid": "java",
+  "name": "java",
+  "type": "programming_language",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "python",
+  "name": "python",
+  "type": "programming_language",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "fastapi",
+  "name": "fast api",
+  "type": "framework",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "pydantic",
+  "name": "pydantic",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "tomcat",
+  "name": "tomcat",
+  "type": "application_server",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "jetty",
+  "name": "jetty",
+  "type": "application_server",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "eclipse"
+ },
+ {
+  "uid": "docker",
+  "name": "docker",
+  "type": "containerization",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "docker"
+ },
+ {
+  "uid": "docker_compose",
+  "name": "docker compose",
+  "type": "container_orchestration",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "docker"
+ },
+ {
+  "uid": "k8s",
+  "name": "kubernetes",
+  "type": "container_orchestration",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "docker"
+ },
+ {
+  "uid": "ansible",
+  "name": "ansible",
+  "type": "automation",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "docker"
+ },
+ {
+  "uid": "weblogic",
+  "name": "weblogic",
+  "type": "application_server",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "mysql",
+  "name": "mysql",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "sql",
+  "name": "sql",
+  "type": "programming_language",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "camel",
+  "name": "apache camel",
+  "type": "framework",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "spark",
+  "name": "apache spark",
+  "type": "framework",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "pyspark",
+  "name": "apache pyspark",
+  "type": "framework",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "hadoop",
+  "name": "apache hadoop",
+  "type": "framework",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "hive",
+  "name": "apache hive",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "kafka",
+  "name": "apache kafka",
+  "type": "streaming",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "duckdb",
+  "name": "duckdb",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "duckdb"
+ },
+ {
+  "uid": "unit_testing",
+  "name": "unit testing",
+  "type": "technique",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "localstack",
+  "name": "localstack",
+  "type": "library",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "integration_testing",
+  "name": "integration testing",
+  "type": "technique",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "testcontainers",
+  "name": "testcontainers",
+  "type": "library",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "junit",
+  "name": "junit",
+  "type": "library",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "aws_s3",
+  "name": "aws s3",
+  "type": "storage",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_cloudfront",
+  "name": "aws cloudfront",
+  "type": "cdn",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_rds_aurora",
+  "name": "aws rds aurora",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_rds",
+  "name": "aws rds",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_ec2",
+  "name": "aws ec2",
+  "type": "compute",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_ecs",
+  "name": "aws ecs",
+  "type": "computed",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_lambda",
+  "name": "aws lambda",
+  "type": "compute",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_efs",
+  "name": "aws efs",
+  "type": "storage",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_msk",
+  "name": "aws msk",
+  "type": "streaming",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_sns",
+  "name": "aws sns",
+  "type": "notification",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_sqs",
+  "name": "aws sqs",
+  "type": "queue",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_ses",
+  "name": "aws ses",
+  "type": "email",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "aws_ecr",
+  "name": "aws ecr",
+  "type": "container_registry",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "aws"
+ },
+ {
+  "uid": "asp",
+  "name": "active server pages",
+  "type": "framework",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "microsoft"
+ },
+ {
+  "uid": "iis",
+  "name": "internet information services",
+  "type": "application_server",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "microsoft"
+ },
+ {
+  "uid": "ms_access",
+  "name": "microsoft access",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "microsoft"
+ },
+ {
+  "uid": "vb_script",
+  "name": "visual basic script",
+  "type": "programming_language",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "microsoft"
+ },
+ {
+  "uid": "eclipse",
+  "name": "eclipse ide",
+  "type": "ide",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "eclipse"
+ },
+ {
+  "uid": "idea",
+  "name": "intellij idea",
+  "type": "ide",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "jetbrains"
+ },
+ {
+  "uid": "pycharm",
+  "name": "pycharm",
+  "type": "ide",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "jetbrains"
+ },
+ {
+  "uid": "webstorm",
+  "name": "webstorm",
+  "type": "ide",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "jetbrains"
+ },
+ {
+  "uid": "netbeans",
+  "name": "netbeans",
+  "type": "ide",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "apache_fop",
+  "name": "fop (pdf generation)",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "cxf",
+  "name": "apache cxf",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "tapestry",
+  "name": "tapestry",
+  "type": "library",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "birt_reports",
+  "name": "birt reports",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "eclipse"
+ },
+ {
+  "uid": "cewolf",
+  "name": "cewolf",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "spring_framework",
+  "name": "spring framework",
+  "type": "framework",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_boot",
+  "name": "spring boot",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_restdocs",
+  "name": "spring rest docs",
+  "type": "library",
+  "kind": "quality_assurance",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_mvc",
+  "name": "spring mvc",
+  "type": "library",
+  "kind": "frontend",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_security",
+  "name": "spring security",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_data",
+  "name": "spring data",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_cloud",
+  "name": "spring cloud",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_gateway",
+  "name": "spring gateway",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "spring_kafka",
+  "name": "spring kafka",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "spring"
+ },
+ {
+  "uid": "log4j",
+  "name": "log4j",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "ehcache",
+  "name": "ehcache",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "terracotta"
+ },
+ {
+  "uid": "java_bean_validation",
+  "name": "java bean validation",
+  "type": "api",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "jpa",
+  "name": "java persistence api",
+  "type": "api",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "stripe",
+  "name": "stripe",
+  "type": "api",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "paypal",
+  "name": "paypal",
+  "type": "api",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "querydsl",
+  "name": "querydsl",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "flyway",
+  "name": "flywaydb",
+  "type": "library",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "jackson",
+  "name": "jackson",
+  "type": "library",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "hibernate",
+  "name": "hibernate",
+  "type": "orm",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "hibernate"
+ },
+ {
+  "uid": "ibm_websphere",
+  "name": "ibm websphere",
+  "type": "application_server",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "ibm"
+ },
+ {
+  "uid": "dvc",
+  "name": "iterative dvc",
+  "type": "version_control",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "iterative"
+ },
+ {
+  "uid": "tpi",
+  "name": "iterative tpi",
+  "type": "automation",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "iterative"
+ },
+ {
+  "uid": "oracle",
+  "name": "oracle",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "oracle"
+ },
+ {
+  "uid": "ms_sql_server",
+  "name": "microsoft sql server",
+  "type": "database",
+  "kind": "data",
+  "category": "engineering",
+  "vendor": "microsoft"
+ },
+ {
+  "uid": "ant",
+  "name": "ant",
+  "type": "build_tool",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "poetry",
+  "name": "python poetry",
+  "type": "build_tool",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "setuptools",
+  "name": "python setuptools",
+  "type": "build_tool",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "conda",
+  "name": "conda",
+  "type": "build_tool",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "maven",
+  "name": "maven",
+  "type": "build_tool",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "apache"
+ },
+ {
+  "uid": "gradle",
+  "name": "gradle",
+  "type": "build_tool",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "gradle"
+ },
+ {
+  "uid": "jenkins",
+  "name": "jenkins",
+  "type": "automation",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "jenkins"
+ },
+ {
+  "uid": "bamboo",
+  "name": "bamboo",
+  "type": "automation",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "jenkins"
+ },
+ {
+  "uid": "nexus",
+  "name": "nexus",
+  "type": "artifact_repository",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "sonatype"
+ },
+ {
+  "uid": "git",
+  "name": "git",
+  "type": "version_control",
+  "kind": "tool",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "github",
+  "name": "github",
+  "type": "saas",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "github_actions",
+  "name": "github actions",
+  "type": "automation",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "terraform",
+  "name": "terraform",
+  "type": "infrastructure_as_code",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "svn",
+  "name": "svn",
+  "type": "version_control",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "svn"
+ },
+ {
+  "uid": "cvs",
+  "name": "cvs",
+  "type": "version_control",
+  "kind": "operations",
+  "category": "engineering",
+  "vendor": "N/A"
+ },
+ {
+  "uid": "bscs",
+  "name": "bscs",
+  "type": "billing_system",
+  "kind": "backend",
+  "category": "engineering",
+  "vendor": "N/A"
+ },
+ {
+  "uid": "product_strategy",
+  "name": "product strategy",
+  "type": "innovation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "project_management",
+  "name": "project management",
+  "type": "management",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "team_management",
+  "name": "team management",
+  "type": "management",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "problem_solving",
+  "name": "problem solving",
+  "type": "soft",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "attention_to_detail",
+  "name": "attention to detail",
+  "type": "soft",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "adversity_management",
+  "name": "adversity management",
+  "type": "soft",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "process_definition",
+  "name": "process definition",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "adaptability",
+  "name": "adaptability",
+  "type": "innovation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "creative_thinking",
+  "name": "creative thinking",
+  "type": "innovation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "decision_making",
+  "name": "decision making",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "crm",
+  "name": "customer relationship management",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "strategic_planning",
+  "name": "strategic planning",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "stakeholder_management",
+  "name": "stakeholder management",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "functional_requirements_specification",
+  "name": "functional requirements specification",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "functional_requirements_gathering",
+  "name": "functional requirements gathering",
+  "type": "operation",
+  "kind": "business",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "teaching",
+  "name": "teaching",
+  "type": "pedagogy",
+  "kind": "people",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "coaching",
+  "name": "coaching",
+  "type": "pedagogy",
+  "kind": "people",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "mentoring",
+  "name": "mentoring",
+  "type": "pedagogy",
+  "kind": "people",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ },
+ {
+  "uid": "public_speaking",
+  "name": "public speaking",
+  "type": "soft",
+  "kind": "people",
+  "category": "entrepreneurship",
+  "vendor": "n/a"
+ }
+]

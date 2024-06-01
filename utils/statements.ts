@@ -58,7 +58,7 @@ const EXPERTISE_QUERY = {
                                      date_add(current_date(), - INTERVAL 7 year))`,
   parameters: {
     table: "cv.parquet",
-    backward_years: 5,
+    backward_years: 7,
   },
 };
 

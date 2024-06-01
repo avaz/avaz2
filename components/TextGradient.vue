@@ -9,12 +9,12 @@ const props = defineProps({
 </script>
 
 <template>
-  <p class="text-2xl font-semibold">
+  <span class="font-semibold">
     <span
       class="bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500 bg-clip-text text-transparent"
       >{{ props.title }}</span
     >
-  </p>
+  </span>
 </template>
 
 <style scoped lang="postcss"></style>

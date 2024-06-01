@@ -890,7 +890,7 @@
   {
     "uid": "spring_boot",
     "name": "spring boot",
-    "type": "framework",
+    "type": "library",
     "kind": "backend",
     "category": "engineering",
     "vendor": "spring",
@@ -898,7 +898,7 @@
   {
     "uid": "spring_restdocs",
     "name": "spring rest docs",
-    "type": "framework",
+    "type": "library",
     "kind": "quality_assurance",
     "category": "engineering",
     "vendor": "spring",
@@ -906,7 +906,7 @@
   {
     "uid": "spring_mvc",
     "name": "spring mvc",
-    "type": "framework",
+    "type": "library",
     "kind": "frontend",
     "category": "engineering",
     "vendor": "spring",
@@ -914,7 +914,7 @@
   {
     "uid": "spring_security",
     "name": "spring security",
-    "type": "framework",
+    "type": "library",
     "kind": "backend",
     "category": "engineering",
     "vendor": "spring",
@@ -922,7 +922,7 @@
   {
     "uid": "spring_data",
     "name": "spring data",
-    "type": "framework",
+    "type": "library",
     "kind": "data",
     "category": "engineering",
     "vendor": "spring",
@@ -930,7 +930,7 @@
   {
     "uid": "spring_cloud",
     "name": "spring cloud",
-    "type": "framework",
+    "type": "library",
     "kind": "backend",
     "category": "engineering",
     "vendor": "spring",
@@ -938,7 +938,7 @@
   {
     "uid": "spring_gateway",
     "name": "spring gateway",
-    "type": "framework",
+    "type": "library",
     "kind": "backend",
     "category": "engineering",
     "vendor": "spring",
@@ -946,7 +946,7 @@
   {
     "uid": "spring_kafka",
     "name": "spring kafka",
-    "type": "framework",
+    "type": "library",
     "kind": "data",
     "category": "engineering",
     "vendor": "spring",
